@@ -2,37 +2,39 @@
 
 A summary overview of robfatland github repos, and beyond
 
-## github.com/robfatland, an organization of dubious merit
+## [github.com/robfatland](https://github.com/robfatland), an organization of dubious merit
 
 
 ### Research and Outreach
 
-* galleryclone 
-* cormorack
-* chlorophyll
-* notebooks
-* rpy
-* golive
-* ocean
-    * Jupyter. Current work on Regional Cabled Array and associated ocean data.
-    * Action: Build into a Jupyter Book; build a course. 
-* mocean
-* othermathclub
-    * Jupyter
-    * Middleschool / Highschool math with considerable coding applications
-    * Action: Full map in sub-folder; reorganize
-* pythonbytes
-* boojum
-* chemistry
-* genomics
-
-Student project support for Rosalind bioinformatics coding problems. 
-Unfortunately Rosalind does not appreciate published code solutions 
-so this repo was a bit of a non-starter. 
-
-
-Action: Move the content, delete the repo.
-
+* Research folder
+   * galleryclone
+   * cormorack
+   * chlorophyll
+   * notebooks
+   * rpy
+   * golive
+   * ocean
+* Outreach folder
+   * mocean
+   * othermathclub
+       * Jupyter
+       * Middleschool / Highschool math with considerable coding applications
+       * Action: Full map in sub-folder; reorganize
+   * pythonbytes -> Outreach folder
+       * Jupyter
+       * See Outreach subfolder
+   * boojum -> Outreach folder
+       * Jupyter
+       * A lot of good content; this is not a simple scrape-and-burn
+       * Includes a large poem, several notebooks, some actual work
+       * Action: Summarize, think carefully about the fate of this one
+   * chemistry -> Outreach folder
+       * Action: scrape and burn
+   * genomics -> Outreach folder
+       * Ridhi-inspired student support for Rosalind bioinformatics coding problems
+       * Action: scrape and burn
+       * No Rosalind solutions online!
 
 ### practical cloud
 
@@ -63,24 +65,26 @@ Action: Move the content, delete the repo.
 
 ## Other organizations
 
-## cloudmaven
+### cloudmaven
 
-## pangeo-community
+### pangeo-community
 
-## haciendata
+### haciendata
 
-## Port Cormorack
+### Port Cormorack
 
-## whaledr
+### whaledr
 
-## research2cloud
+### research2cloud
 
-## escience-pangeo
+### escience-pangeo
 
-## eScience
+### eScience
 
 Private UW eScience Institute
 
-## CloudBank
+### CloudBank
+
+* cb-solutions
 
 Private for the NSF-sponsored CloudBank program
