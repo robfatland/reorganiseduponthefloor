@@ -7,7 +7,7 @@ together into some sort of focus, here we go...
    * for kids who like math but are not inclined towards competition style
    * intended to go off the beaten track of the curriculum
    * ***The Other Math Club*** Jupyter notebook is the catch-all for content. It starts off with Monty Hall, some graph theory problems, and a variant of Ms. Halfway
-   * There is a code fragment for displaying images from the images folder: See the main README.md file
+   * There is function for displaying images from the `images` folder in cells. See the main README.md file; some notebooks use it via import...
 
 
 
