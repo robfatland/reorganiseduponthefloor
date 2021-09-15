@@ -15,6 +15,21 @@ together into some sort of focus, here we go...
            * e to the x
            * infinite series
            * leech trees (note redundancy with I think Welcome.ipynb)
+           * evolution lexicon
+           * meru ideas
+           * pencil moving templates???
+           * pft
+           * radicals
+           * rainbows
+           * ring
+           * sixes
+           * steiner
+           * activities and lectures
+           * minecraft
+           * notes
+           * oz
+           * plateau
+           * solutions
        * computing
        * drone bees
        * fibonacci
