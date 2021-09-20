@@ -24,26 +24,9 @@ Here is a summary of the content as of September 2021. Some material appears in 
 * There is function for displaying images from the `images` folder in cells. See the main README.md file; some notebooks use it via import...
 * subsections are either folders or single `.ipynb` notebooks
     * appendices
-        * Activities and Lectures 
-        * book ideas: Really is notes on writing a book
-        * e to the x
-        * infinite series
-        * leech trees (note redundancy with I think Welcome.ipynb)
-        * evolution lexicon
-        * meru ideas
-        * pencil moving templates???
-        * pft
-        * radicals
-        * rainbows
-        * ring
-        * sixes
-        * steiner
-        * activities and lectures
-        * minecraft
-        * notes
-        * oz
-        * plateau
-        * solutions
+        * Currently under review: Capitalize the notebook name when done
+        * There is a lot here that can be tidied up... so do that first...
+        * ...then write it up here
     * computing
     * drone bees
     * fibonacci
