@@ -54,6 +54,11 @@ Here is a summary of the content as of September 2021. Some material appears in 
         * Practical: Fast baseball plus some activities that require materials (lasers and such)
         * Graphs: Several problems stated, then `2n` vertices, `n**2+1` edges triangle problem with solution
 
+## pythonbytes
+
+This was a second effort at bringing extra material to a Middle School. 
+
+
 
 
 
