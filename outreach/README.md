@@ -23,10 +23,13 @@ Here is a summary of the content as of September 2021. Some material appears in 
 * ***Welcome*** Jupyter notebook is the catch-all for content. It starts off with Monty Hall, some graph theory problems, and a variant of Ms. Halfway
 * There is function for displaying images from the `images` folder in cells. See the main README.md file; some notebooks use it via import...
 * subsections are either folders or single `.ipynb` notebooks
-    * appendices
+    * isolated topics
         * Currently under review: Capitalize the notebook name when done
         * There is a lot here that can be tidied up... so do that first...
         * ...then write it up here
+            * Probability: 
+            * Proof: narrative of what proof is supported by some examples, including Wilson's theorem about primes
+            * Topology: Konigs, Euler graphs, clay, mobius strips, oblique ref to dimensionality via Fishing Kid problem
     * computing
     * drone bees
     * fibonacci
@@ -38,8 +41,7 @@ Here is a summary of the content as of September 2021. Some material appears in 
     * meruprastarah
     * montecarlo
     * numbers 
-    * probability
-    * problems has 11 `.ipynb` notebooks featuring problems by topic
+    * problems has 11 `.ipynb` notebooks, problems by topic
         * Start: Some language-based problems, cube cutting, hill hike, rose-red city, egg boil (gallon type)
         * Logic: One knights and knaves problem
         * Challenging Logic: Conway's wizards, S & P & x & y, hats, paraphrase of Munroe's eye color, zebra
@@ -51,8 +53,6 @@ Here is a summary of the content as of September 2021. Some material appears in 
         * Stories: hill hike, duck wolf, halfway, 4 travellers, 4 bugs, boring worm, triangular frame, hilbert, ambiguous clock, pond rope 
         * Practical: Fast baseball plus some activities that require materials (lasers and such)
         * Graphs: Several problems stated, then `2n` vertices, `n**2+1` edges triangle problem with solution
-    * proof: narrative of what proof is supported by some examples, including Wilson's theorem about primes
-    * topology: Konigs, Euler graphs, clay, mobius strips, oblique ref to dimensionality via Fishing Kid problem
 
 
 
