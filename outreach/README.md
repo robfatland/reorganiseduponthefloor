@@ -56,7 +56,14 @@ Here is a summary of the content as of September 2021. Some material appears in 
 
 ## pythonbytes
 
-This was a second effort at bringing extra material to a Middle School. 
+This is another effort at bringing extra material to Middle School students. The **othermathclub** content has a lot of 
+'programmable moments'; and some of that has translated across to this repository. For example the problem of four bugs
+starting at the corners of a square table and walking towards one another is a great coding problem; and lends itself 
+well to a graphical display of the solution. 
+
+
+
+## mocean
 
 
 
