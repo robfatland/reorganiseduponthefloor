@@ -87,9 +87,12 @@ Private UW eScience Institute
 
 * [cb-resources](https://github.com/cloudbank-project/cb-resources) is resources **base**
     * [public view cb-resources](https://cloudbank-project.github.io/cb-resources/)
-    * [markdown location for CloudBank Solutions](https://cloudbank-project.github.io/cb-resources/)
+    * [markdown location for CloudBank Solutions](https://github.com/cloudbank-project/cb-resources/tree/main/docs/technical-resources/solutions)
     * [Template: **cbs-jupyter.md**](https://github.com/cloudbank-project/cb-resources/blob/main/docs/technical-resources/solutions/cbs-jupyter.md)
-    * Image inline markdown follows
+    * To inline images follow this procedure
+        * Create `README.md` in a sub-folder called `cbs-topic-name-here-static` and copy contents in from `README.md` in `cbs-jupyter-static` 
+        * Upload images to this folder
+        * Create image inline markdown in `cbs-topic-name-here.md` as shown below
 
 ```
 ![Binder as sandbox Jupyter notebook server](cbs-jupyter-static/jupyter_binder_notebook_listing.png)
