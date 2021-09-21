@@ -85,6 +85,14 @@ Private UW eScience Institute
 
 ### CloudBank
 
-* cb-solutions
+* [cb-resources](https://github.com/cloudbank-project/cb-resources) is resources **base**
+    * [public view cb-resources](https://cloudbank-project.github.io/cb-resources/)
+    * [markdown location for CloudBank Solutions](https://cloudbank-project.github.io/cb-resources/)
+    * [Template: **cbs-jupyter.md**](https://github.com/cloudbank-project/cb-resources/blob/main/docs/technical-resources/solutions/cbs-jupyter.md)
+    * Image inline markdown follows
 
-Private for the NSF-sponsored CloudBank program
+```
+![Binder as sandbox Jupyter notebook server](cbs-jupyter-static/jupyter_binder_notebook_listing.png)
+```
+
+
