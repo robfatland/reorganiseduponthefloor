@@ -2,6 +2,8 @@
 
 A summary overview of robfatland github repos, and beyond
 
+Reference: How to create a table in markdown:
+
 
 | Activity | Amount |  Date | Notes |
 | -------- | ------ | ---- | ---- |
