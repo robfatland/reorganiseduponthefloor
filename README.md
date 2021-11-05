@@ -2,6 +2,22 @@
 
 A summary overview of robfatland github repos, and beyond
 
+
+| Activity | Amount |  Date | Notes |
+| -------- | ------ | ---- | ---- |
+| indicators |
+| scale | lourde |  03-AUG-2018 | BMI 30.8 |
+| scale | moin |  03-SEP-2019 | BMI 26.8 |
+| strength |
+| pull ups | rien |  from dead hang |
+| press ups | 50 |  | good form |
+| core |
+| cardio |
+| flexibility and mobility |
+| the routine |
+| handstand |
+
+
 ## [github.com/robfatland](https://github.com/robfatland), an organization of dubious merit
 
 
