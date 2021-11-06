@@ -2,35 +2,36 @@ Here for music? Click the **tunes** folder. :)
 
 
 > a man who had fallen among thieves
-lay by the roadside on his back
-dressed in fifteenthrate ideas
-wearing a round jeer for a hat
+> lay by the roadside on his back
+> dressed in fifteenthrate ideas
+> wearing a round jeer for a hat
+<BR>
+> fate per a somewhat more than less
+> emancipated evening
+> had in return for consciousness
+> endowed him with a changeless grin
+<BR>
+> whereon a dozen staunch and leal
+> citizens did graze at pause
+> then fired by hypercivic zeal
+> sought newer pastures or because
+<BR>
+> swaddled with a frozen brook
+> of pinkest vomit out of eyes
+> which noticed nobody he looked
+> as if he did not care to rise
+<BR>
+> one hand did nothing on the vest
+> its wideflung friend clenched weakly dirt
+> while the mute trouserfly
+> confessed a button solemnly inert.
+<BR>
+> Brushing from whom the stiffened puke
+> i put him all into my arms
+> and staggered banged with terror through
+> a million billion trillion stars.
 
-fate per a somewhat more than less
-emancipated evening
-had in return for consciousness
-endowed him with a changeless grin
-
-whereon a dozen staunch and leal
-citizens did graze at pause
-then fired by hypercivic zeal
-sought newer pastures or because
-
-swaddled with a frozen brook
-of pinkest vomit out of eyes
-which noticed nobody he looked
-as if he did not care to rise
-
-one hand did nothing on the vest
-its wideflung friend clenched weakly dirt
-while the mute trouserfly
-confessed a button solemnly inert.
-
-Brushing from whom the stiffened puke
-i put him all into my arms
-and staggered banged with terror through
-a million billion trillion stars.
-
+  
 # [reorganised](https://github.com/robfatland/reorganiseduponthefloor/blob/main/sweeney.md)
 
 A summary overview of robfatland github repos, and beyond
