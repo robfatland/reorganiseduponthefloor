@@ -53,13 +53,13 @@ Reference: How to create a table in markdown:
 ### Research and Outreach
 
 * Research folder
-   * galleryclone
-   * cormorack
-   * chlorophyll
-   * notebooks
+   * galleryclone: source material
+   * cormorack: source material
+   * chlorophyll: source material
+   * notebooks: source material
    * rpy
-   * golive
-   * ocean
+   * golive is most advanced terrestrial cryosphere
+   * ocean is most current, see?
 * Outreach folder
    * mocean
    * othermathclub
