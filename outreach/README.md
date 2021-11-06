@@ -3,7 +3,7 @@
 I have been doing STEM outreach -- mostly freelance, mostly 5th-10th grade -- since 1995 or so. Attempt number `n + 1` to bring it all 
 together into some sort of focus, here we go...
 
-## othermathclub
+## [othermathclub](https://github.com/robfatland/othermathclub)
 
 OMC was developed for kids who like math but are not inclined towards competition style.
 The content topics stray off the beaten path of the middle school curriculum: Into probability, patterns, logic and the surprising nature of infinity 
@@ -54,7 +54,7 @@ Here is a summary of the content as of September 2021. Some material appears in 
         * Practical: Fast baseball plus some activities that require materials (lasers and such)
         * Graphs: Several problems stated, then `2n` vertices, `n**2+1` edges triangle problem with solution
 
-## pythonbytes
+## [pythonbytes](https://github.com/robfatland/pythonbytes)
 
 This is another effort at bringing extra material to Middle School students. The **othermathclub** content has a lot of 
 'programmable moments'; and some of that has translated across to this repository. For example the problem of four bugs
