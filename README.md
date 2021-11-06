@@ -1,5 +1,36 @@
 Here for music? Click the **tunes** folder. :)
 
+
+> a man who had fallen among thieves
+lay by the roadside on his back
+dressed in fifteenthrate ideas
+wearing a round jeer for a hat
+
+fate per a somewhat more than less
+emancipated evening
+had in return for consciousness
+endowed him with a changeless grin
+
+whereon a dozen staunch and leal
+citizens did graze at pause
+then fired by hypercivic zeal
+sought newer pastures or because
+
+swaddled with a frozen brook
+of pinkest vomit out of eyes
+which noticed nobody he looked
+as if he did not care to rise
+
+one hand did nothing on the vest
+its wideflung friend clenched weakly dirt
+while the mute trouserfly
+confessed a button solemnly inert.
+
+Brushing from whom the stiffened puke
+i put him all into my arms
+and staggered banged with terror through
+a million billion trillion stars.
+
 # [reorganised](https://github.com/robfatland/reorganiseduponthefloor/blob/main/sweeney.md)
 
 A summary overview of robfatland github repos, and beyond
@@ -11,11 +42,7 @@ Reference: How to create a table in markdown:
 | -------- | ------ | ---- | ---- |
 | indicators |
 | scale | lourde |  03-AUG-2018 | 30.8 |
-| scale | moin |  03-SEP-2019 | 26.8 |
-| pull ups | rien |  from dead hang |
-| press ups | 50 |  | good form |
-| core |
-| cardio |
+
 
 
 
