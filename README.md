@@ -1,6 +1,6 @@
 music? sure! See the **tunes** folder.
 
-Here is a little cummings poem and it took me years to parse *graze at pause* (not *'gaze'*!). 
+Here is a little cummings poem and it took me years to parse *graze at pause* (not *'gaze'*!) 
 Why so long? Just becud. 
 
 
