@@ -18,8 +18,17 @@ the EQ control for the track and find the PreGain. Turn it on. Set it down from 
 
 ## Scoring
 
-The best approach I've found to date is to create and then mute a score track in MIDI. This is easy to edit and quantify. This 
-in turm feeds the Score editor; and from there we have a printed piece of music. Then mute the MIDI track and record audio. 
+The best approach I've found to date is to build a MIDI track that is intended for a score. MIDI is easy to edit and quantify. 
+The MIDI feeds the Score editor, so printed music. Then mute the MIDI track and record it from a real instrument.
+
+
+Sometimes we start from a keyboard part and want to decompose that into a bassline and a guitar part. I find it helpful to
+duplicate the keyboard and treat the lower copy as the proto-bassline. Delete everything except the lowest note and change
+the VST Instrument. Then on the upper track do the converse.
+
+
+The Cubase Score Editor is a learning curve proposition. Do the learning curve before trying to create a score for a project. 
+This is painful because it feels slow.
 
 
 ## Side-chaining
@@ -83,8 +92,8 @@ in turm feeds the Score editor; and from there we have a printed piece of music.
         * Reggae
             * Reggae
 * Cubase New
-    * Bird (Aug 2021): No notes; piano, bass, simple drum track, implied verse 'Father ... beer son'
-    * Stronzi: Simple oom pah groove experiments with using a B3 as the bass; so interesting bassline
+    * Desert (Aug 2021): 'Father ... beer'
+    * Stronzi: Simple oom pah groove experiments using a B3 as bass; so interesting bassline
 * Cubase T DMAF H
     * DoMeAFavor (July 2021)
         * Mix sounds muffled as if through cotton, 'overproduced'?
