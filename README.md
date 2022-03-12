@@ -37,7 +37,7 @@ Why so long? Just becud.
   
 # [reorganised](https://github.com/robfatland/reorganiseduponthefloor/blob/main/sweeney.md)
 
-A summary overview of robfatland github repos, and beyond
+map robfatland github repos, plus music
 
 Reference: How to create a table in markdown:
 
@@ -55,7 +55,7 @@ Reference: How to create a table in markdown:
 
 ### Research and Outreach
 
-* Research folder
+* Research folder -- consolidate to two (golive and ocean)
    * galleryclone: source material
    * cormorack: source material
    * chlorophyll: source material
@@ -63,44 +63,25 @@ Reference: How to create a table in markdown:
    * rpy
    * golive is most advanced terrestrial cryosphere
    * ocean is most current, see?
-* Outreach folder
+* Outreach
    * mocean
-   * othermathclub
-       * Jupyter
-       * Middleschool / Highschool math with considerable coding applications
-       * Action: Full map in sub-folder; reorganize
-   * pythonbytes -> Outreach folder
-       * Jupyter
-       * See Outreach subfolder
-   * boojum -> Outreach folder
-       * Jupyter
-       * A lot of good content; this is not a simple scrape-and-burn
-       * Includes a large poem, several notebooks, some actual work
-       * Action: Summarize, think carefully about the fate of this one
-   * chemistry -> Outreach folder
-       * Action: scrape and burn
-   * genomics -> Outreach folder
-       * Ridhi-inspired student support for Rosalind bioinformatics coding problems
-       * Action: scrape and burn
-       * No Rosalind solutions online!
+   * othermathclub (consolidate with percival and boojum)
+   * pythonbytes (consolidate with othermathclub / percival / boojum)
+   * boojum (carry to othermathclub)
+   * percival (carry to othermathclub)
+   * genomics (delete after check on value)
 
 ### practical cloud
 
+* cli: expand
+* nlp: bring to usable state
 * costnotify
 * cloudsecurity
-* sce
-* uwsdre
-    * secure digital research environment
-* cloud101102
-* Zero2API
-* ibm
-* serverless
-* greenandblack
-    * gh-pages
-    * Retro instructions on how to simplify a UNIX computing environment: No helpful colors.
-    * Action: Self-referential "how to build on gh-pages"; see also how we are doing cb-solutions
-    * Reference the gh-pages site from elsewhere via hyperlink
-* percival
+* cloud101102: check and delete
+* Zero2API: update
+* serverless: check
+* greenandblack: catch-all, some material should go elsewhere
+    * describes using gh-pages
 
 ### miscellaneous
 
@@ -111,7 +92,7 @@ Reference: How to create a table in markdown:
     * notes on salmon fishing
 
 
-## Other organizations
+## The other organizations I contribute to
 
 ### cloudmaven
 
