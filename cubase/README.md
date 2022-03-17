@@ -1,5 +1,14 @@
 # Cubase
 
+## Pre or Post Fader?
+
+As a rule: Effects sends follow the fader ("post fader", Cubase control is orange) 
+so that whatever the effect is doing stays in relation to the signal from
+the source. When might the send be switched to pre-fader (blue)? 
+The way to think about this is imagining starting with the fader at Zero and putting the effect in front of the fader; 
+then dropping the fader and seeing the "ghost" result taking over for the main signal. Maybe side-chaining
+compression would be a candidate where you fade down a kick but still use it to trigger the compressor.
+
 ## Gain Staging
 
 The goal is -12 dB on the master bus, leaving a lot of headroom in the mix. But this is not the same as -12 dB on the fader for each source channel. 
@@ -8,6 +17,7 @@ Loops and so forth; pre-built content; are by nature VERY LOUD!!! Why? Because i
 
 No problem: We just get accustomed to attenuating everything on import. Before you do anything else: Go to the channel strip in the mixer or 
 the EQ control for the track and find the PreGain. Turn it on. Set it down from unity gain to -12dB; and go from there. 
+
 
 * PreGain to -12dB
 * Audio tracks: Use the pencil tool to introduce localized attenuation of hot sections: 'Much more natural sounding than a compressor'
