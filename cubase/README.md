@@ -19,7 +19,7 @@ No problem: We just get accustomed to attenuating everything on import. Before y
 the EQ control for the track and find the PreGain. Turn it on. Set it down from unity gain to -12dB; and go from there. 
 
 
-* PreGain to -12dB
+* PreGain to -20dB
 * Audio tracks: Use the pencil tool to introduce localized attenuation of hot sections: 'Much more natural sounding than a compressor'
 * Audio tracks are Events or Clips; which have clip gain setting (starting at unity): Magnitude of the waveform. Use if necessary.
 * Write automation: Using the fader write an envelope during playback. Attention, post: *All* the adjustable stuff, like tilt
@@ -45,6 +45,23 @@ This is painful because it feels slow.
 
 
 ## Reverb and Compression
+
+
+## Drums
+
+
+Dom says...
+
+
+- Use the keyboard... ok... and double click in the Track Editor to create notes (faster than switching to pencil)
+    - Edit volume etc etc
+    - Ghost notes very quiet at 1/32 three in a row before a downbeat: nice touch 
+- Lower zone > Editor > Dropdown: Drum Editor is open for business
+    - Go to the top-center zone > drum track > drag pencil > empty Event (say four measures)
+    - Drum editor: Create drum map from instrument
+    - Drum editor: Blank column on the left of the Pitch/Instrument table: Click to audition
+    - Drum editor: controls bar: left side "home plate" icon with dropdown: Show drum sounds in use by Instrument
+    - Why does Dom get diamonds when I get boxes? Why is one version of my kick pathological, the other works?
 
 
 ## Project Directory
