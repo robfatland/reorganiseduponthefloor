@@ -61,7 +61,12 @@ Dom says...
     - Drum editor: Create drum map from instrument
     - Drum editor: Blank column on the left of the Pitch/Instrument table: Click to audition
     - Drum editor: controls bar: left side "home plate" icon with dropdown: Show drum sounds in use by Instrument
+        - Later: After instruments are chosen: Show Drum Sounds With Events cleans things up further
     - Why does Dom get diamonds when I get boxes? Why is one version of my kick pathological, the other works?
+    - Scale velocities ensemble by selecting notes; then hover in velocity window to see this option
+    - Notice velocities are isolated to the selected drum sound; not *everything*
+    - When the Drum Editor is engaged the Inspector changes to emphasize Quantize: Can modify / apply to a selected drum
+- With a GASE track open Beat Designer from the Track Inspector > MIDI Inserts > Dropdown > Beat Designer
 
 
 ## Project Directory
