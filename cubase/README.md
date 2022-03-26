@@ -67,6 +67,9 @@ Dom says...
     - Notice velocities are isolated to the selected drum sound; not *everything*
     - When the Drum Editor is engaged the Inspector changes to emphasize Quantize: Can modify / apply to a selected drum
 - With a GASE track open Beat Designer from the Track Inspector > MIDI Inserts > Dropdown > Beat Designer
+    - Match some segment of the track to the duration of the Beat Designer
+    - Velocity, flams, two swing modes, other features
+    - Use the upper left dropdown to print patterns onto the track
 
 
 ## Project Directory
