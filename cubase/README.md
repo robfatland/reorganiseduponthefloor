@@ -47,6 +47,29 @@ This is painful because it feels slow.
 ## Reverb and Compression
 
 
+## Tips from Sohn and Chris
+
+- Mixer: Shift + Alt highlights QLink button when activated does everything across multiple selected tracks
+- File > Key Commands > L for Locate Selection Start on the Transport and : for Right; use with copy-paste
+- Marker track: Can enable toggle between time-based and music-based modes
+- Event name change: Select and modify at the top of the Inspector
+- Bounce range: Don't just select the Event or Events to bounce: Select a *range* that contains these Events and then Bounce
+    - Useful for making tracks start at 1 which facilitates sharing across DAWs
+- Backup Project File rather than Save As: Don't use Save As
+- Increase the number of automation points in a manual drawing
+    - Project > Automation Panel (F6) > Settings > Reduction Level bring down to 5% (less interpolation: more points)
+- Channel settings window
+    - Change EQ colors: Preferences > MixConsole Rack Colors > Equalizers, PreGain
+    - Knob version of EQ: Use dropdown in upper right of the Equalizer tab
+    - Can do metering color changes here also: Like -18dB for gain staging purposes
+- Mix console: Drag an effect using Alt + Drag; or Drag INSERTS to do all of them; and SENDS; Channel strip; EQ
+    - Even drag and drop the entire channel
+
+## Control Room 
+- Mixer L button: CR right tab, Main tab, Listen: AFL selected, LE activated, level at 0.0, Listen Dim to hear the mix at a lower level
+    - Listen to an effect without the dry signal 
+
+
 ## Drums
 
 
