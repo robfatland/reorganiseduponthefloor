@@ -37,6 +37,10 @@ The best approach I've found to date is to build a MIDI track that is intended f
 The MIDI feeds the Score editor, so printed music. Then mute the MIDI track and record it from a real instrument.
 
 
+A more circuitous idea that works on an audio track: Use VariAudio to create something that looks like MIDI, then see above.
+I haven't done this but it seems like an interesting idea... maybe runs into a brick wall with any polyphony.
+
+
 Sometimes we start from a keyboard part and want to decompose that into a bassline and a guitar part. I find it helpful to
 duplicate the keyboard and treat the lower copy as the proto-bassline. Delete everything except the lowest note and change
 the VST Instrument. Then on the upper track do the converse.
