@@ -11,15 +11,20 @@ compression would be a candidate where you fade down a kick but still use it to 
 
 ## Gain Staging
 
-The goal is -12 dB on the master bus, leaving a lot of headroom in the mix. But this is not the same as -12 dB on the fader for each source channel. 
+The goal is -12 dB on the master bus, leaving headroom in the mix. Initial gain stage target is -18dB via PreGain 
+as a rule of thumb.
+Drums cut through hotter; so pushing them to lower, even -24dB, is reasonable. 
+The idea (Dom Sigalas, others) is to keep the fader at zero and use other mechanisms to 
+get into the ballpark. Then the fader comes in as the last adjustment.
 
-Loops and so forth; pre-built content; are by nature VERY LOUD!!! Why? Because it is a Loud World and a competition to get your attention. 
+Media Bay loops i.e. pre-built content are by nature VERY HOT. Why? Because it is a Loud World and they have to compete for your attention.
 
-No problem: We just get accustomed to attenuating everything on import. Before you do anything else: Go to the channel strip in the mixer or 
-the EQ control for the track and find the PreGain. Turn it on. Set it down from unity gain to -12dB; and go from there. 
+So after the source is connected: Go to the channel strip in the mixer or 
+the EQ control for the track, enable PreGain and drag it down into the -18dB ballpark.
+Here is a gain staging sequence:
 
 
-* PreGain to -20dB
+* PreGain to -18dB
 * Audio tracks: Use the pencil tool to introduce localized attenuation of hot sections: 'Much more natural sounding than a compressor'
 * Audio tracks are Events or Clips; which have clip gain setting (starting at unity): Magnitude of the waveform. Use if necessary.
 * Write automation: Using the fader write an envelope during playback. Attention, post: *All* the adjustable stuff, like tilt
