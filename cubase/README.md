@@ -73,7 +73,7 @@ This is painful because it feels slow.
 ## Drums
 
 
-Dom says...
+Dom says four ways: Keyboard drumming (separate video!), Drum Editor, MIDI Insert Beat Designer and Groove Agent Patterns
 
 
 - Use the keyboard... ok... and double click in the Track Editor to create notes (faster than switching to pencil)
@@ -92,7 +92,11 @@ Dom says...
 - With a GASE track open Beat Designer from the Track Inspector > MIDI Inserts > Dropdown > Beat Designer
     - Match some segment of the track to the duration of the Beat Designer
     - Velocity, flams, two swing modes, other features
-    - Use the upper left dropdown to print patterns onto the track
+    - Use the upper left dropdown to print patterns onto the track; or better: Drag the desired pattern from the stylized keyboard
+        - That stylized keyboard is at the bottom of the BD interface; and notice it has capacity for many patterns
+    - Notice there are presets as well
+    - There are a limited number of instruments; click on one to see the full available list
+- From GASE 
 
 
 ## Project Directory
