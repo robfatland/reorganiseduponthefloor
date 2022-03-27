@@ -1,5 +1,10 @@
 # Cubase
 
+## Terms 
+
+CC is Continuous Controller for MIDI and it means something like a pitch bend wheel that can emit a string of modifiers.
+
+
 ## Pre or Post Fader?
 
 As a rule: Effects sends follow the fader ("post fader", Cubase control is orange) 
@@ -78,6 +83,20 @@ This is painful because it feels slow.
 - Mixer L button: CR right tab, Main tab, Listen: AFL selected, LE activated, level at 0.0, Listen Dim to hear the mix at a lower level
     - Listen to an effect without the dry signal 
 
+## Keyboard Editor for MIDI
+
+- There is a chord editor built in
+- Hold Ctrl to select all notes of a given pitch
+    - Also drag a note up/down: Start, THEN hold Ctrl when dragging to lock its time position
+        - This works on an Alt copy of a note as well
+    - Select note + Ctrl + Shift: Now you are dragging velocity
+- Quantize: Lengths, Ends, Reset
+- Velocity has three handles: Center global and ends tilt; and side-center is a compressor
+    - These controls also work for recorded Modulation
+- Modulation: Select + Delete gives back a square wave but with a handle
+- > MIDI > Functions
+    - Explore!
+- Look into the Key Quantizer: Contrains MIDI notes to lie within some key; drag up and down to restructure harmony
 
 ## Drums
 
