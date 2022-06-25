@@ -39,7 +39,7 @@ Common markdown formatting includes....
 
 This is very useful: The back-tick usually found at keyboard upper left: \` .
 Of course to print this character here I used 
-the backslash *literal* delimiter; so what is in the markdown file is \\\` . 
+the backslash *literal* delimiter; so what is in the markdown file is **\\\`**  . 
 
 
 Use: Back-ticks create blocks of fixed-width font text, as in an older-style
