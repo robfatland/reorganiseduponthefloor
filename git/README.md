@@ -86,7 +86,8 @@ A leading `>` character renders text as a quotation.
 
 
 Place the text to appear within square bracks and follow it with no spaces by the link URL 
-in parentheses. [This link goes to the Google search page](https://google.com).
+in parentheses. [This link goes to the Google search page](https://google.com). It
+is constructed as `[link text](https://google.com)`. 
 
 
 Within a document, cursor hover over headings reveals they have intrinsic link addresses.
