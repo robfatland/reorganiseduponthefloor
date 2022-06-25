@@ -117,11 +117,13 @@ Some years ago -- never mind how long precisely -- one of our heroes to whom you
 introduced was asked to write a book. 
 He was working as an assistant professor at a small college in Pasadena at the time; and he took a 
 close look at the idea and upped
-the ante in reply: "Yes, but wait! My idea is a more ambitious and a better book... in 12 chapters."  
-Upon receiving approval 
-he embarked on the project which has occupied him to this day, some 60 years later. He appears to 
+the ante in reply: "Yes, but wait! My idea is a more ambitious and a better book... in 12 chapters."
+Whereupon
+he embarked on the expanded project which in turn expanded into a treatise on computer science,
+and that work has occupied him to this day, some 60 years later. He appears to 
 have done some other work as well
-in the mean time. 
+in the mean time. For example he gives interesting lectures each December that are well regarded.
+(These may be found on YouTube.)
 
 
 The history of this book, which I shall refer to using the title acronym TAOCP, is beyond the 
@@ -134,7 +136,7 @@ computer algorithms. But back to our story.
 
 
 Some years went by from that 1962 starting point; and as technical books are often periodically 
-revised. Volume 2 went through
+revised, Volume 2 went through
 this process in 1976. So it was that our subject received the proofs for TAOCP Volume 2; 
 which had been 
 typeset in a new manner. 
@@ -168,8 +170,9 @@ articles that are readable. I would say transcend readable to beautiful.
 Forty years and counting, for decades to come. 
 
 
-I do not write using TeX. To write my graduate thesis I became moderately fluent in
-LaTeX; which is a content oriented system that uses TeX for document layout. I think
+I do not use TeX directly. To write my graduate thesis I became moderately fluent in
+LaTeX; which is a variant, a content-oriented system that uses TeX for document layout. 
+I think
 of LaTeX (correctly or incorrectly) as a human-friendly wrapper around TeX. Anyway
 by moderate fluency I mean...
 
@@ -178,9 +181,10 @@ $$
 x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6\sqrt{\cdots}}}}}}
 $$
 
-...is familiar enough (in terms of LaTeX syntax) to compose on the fly, whereas
-footnotes and page headers and things of that sort would take some digging for
-me to set up proper.
+...is familiar enough (in terms of LaTeX syntax) to compose on the fly. Equations.
+Whereas
+footnotes and page headers and diagrams and tables and things of that sort would 
+take me some digging to set up proper.
 
 
 With that, I'll continue in 
