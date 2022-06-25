@@ -43,8 +43,8 @@ the backslash *literal* delimiter; so what is in the markdown file is \\\` .
 
 
 Use: Back-ticks create blocks of fixed-width font text, as in an older-style
-computer terminal. This is useful for indicating or quoting commands and 
-computer code. 
+computer terminal. This is useful for indicating or quoting `commands` and 
+`computer code`. 
 
 
 A single back-tick is used as a delimiter for 
