@@ -112,19 +112,30 @@ typeset in a new manner.
 
 As an aside you might look up a thumbnail sketch of 'Tao'. It seems poetically appropriate
 and when Professor Knuth is involved, I am starting to suspect that any found poetry is not 
-accidental when he is involved.
-And it seems I have neglected this individual's name so far.
+accidental when he is involved. I offer as evidence the version numbering system used for
+the software described below.
+Ah, and it seems I have neglected to provide this individual's name so far.
 
 
-Enter stage left one Donald Ervin Knuth. Just one aside on his backstory: It is not common, 
-upon an individual completing their bachelor's degree, for the
-faculty of their institution to vote to also grant the individual a master's degree: Simply 
-in recognition of their efforts. 
+Enter stage left one Donald Ervin Knuth. Just one anecdote from his biography: It is not common, 
+upon an individual's completing their bachelor's degree, for the
+faculty of their institution to conclude that they should also award the individual a master's degree. 
 
 
 Anyway the proofs were considered inferior compared to how things looked in the first edition. 
 So Professor Knuth did what anyone else would do upon receiving proofs that are plagued by inferior 
 quality typesetting. He designed and wrote his own typesetting system and made sure it would 
-be universally available for anyone's use at no cost. This system he named TeX. This experiment 
-in open source proved to be very successful: A subset of the academic community learned and adopted
-TeX, enabling them to create beautiful articles and books from that day to this. 
+be universally available for anyone's use at no cost. This system he named TeX. It went through
+many revisions from 1978 to 1989 when it was 'officially' released; but I believe it was in
+serious academic use when I started college in 1982.
+
+
+This contribution to
+open source usefulness has proven successful: Academics (and publishing companies and many
+other adopters) have learned and adopted
+TeX according to need; and have created thousands of books and hundreds of thousands of
+articles that are readable. I would say transcend readable to beautiful. 
+Forty years and counting, for decades to come. 
+
+
+I do not write using TeX. To write my graduate thesis I became moderately 
