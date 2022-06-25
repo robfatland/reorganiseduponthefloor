@@ -86,10 +86,15 @@ A leading `>` character renders text as a quotation.
 
 
 Place the text to appear within square bracks and follow it with no spaces by the link URL 
-in parentheses. [This link goes to the Google search page](https://google.com)
+in parentheses. [This link goes to the Google search page](https://google.com).
 
 
-Within a document
+Within a document, cursor hover over headings reveals they have intrinsic link addresses.
+You can copy and paste those links into the (hyperlink) following a \[link name\].
+However for linking within a page you can just use the pound sign \# followed by
+the header name; with spaces replaced by hyphens.
+[This one goes up to the back-tick section](#2-the-back-tick-character), for
+example. The link string here is `#2-the-back-tick-character`.
 
 
 
