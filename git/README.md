@@ -76,17 +76,31 @@ In this text please find single, double, and triple asterisk delimiters.
 ## 4. quotations
 
 
-A leading `>` character renders text as a quotation. This is useful to offset "special note" blocks of text. 
+A leading `>` character renders text as a quotation. 
 
 
-## 5. html
+> This is useful to offset "special note" blocks of text. 
+
+
+## 6. hyperlinks 
+
+
+Place the text to appear within square bracks and follow it with no spaces by the link URL 
+in parentheses. [This link goes to the Google search page](https://google.com)
+
+
+Within a document
+
+
+
+## 6. html
 
 
 HTML can be embedded in a markdown file. This is useful, for example, to embed an image 
 in a markdown page. More detail is out of scope at the moment. 
 
 
-## 6. wandering off into the story
+## 7. wandering off into the story
 
 
 Now I turn to the last topic of this segment, a digression. The practical matter of `git` is 
