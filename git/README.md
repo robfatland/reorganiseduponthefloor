@@ -37,8 +37,17 @@ Common markdown formatting includes....
 ## 2. The back-tick character 
 
 
-This is very important (keyboard upper left: \`) Of course to print that character I used 
-the backslash to indicate *literal*: \\\`. A single back-tick is used as a delimiter for 
+This is very useful: The back-tick usually found at keyboard upper left: \` .
+Of course to print this character here I used 
+the backslash *literal* delimiter; so what is in the markdown file is \\\` . 
+
+
+Use: Back-ticks create blocks of fixed-width font text, as in an older-style
+computer terminal. This is useful for indicating or quoting commands and 
+computer code. 
+
+
+A single back-tick is used as a delimiter for 
 code that remains inline with surrounding text. For example this sentence has a `True` in it. 
 
 
