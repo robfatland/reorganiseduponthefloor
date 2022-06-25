@@ -2,11 +2,16 @@ $e^{i \pi} + 1 = 0, \ give \ or \ take...$
 
 
 Please place some version of these notes; as you like; someplace stable. I treat GitHub as my 
-"someplace stable" these days. Regardless of whether my laptop falls into a volcano on the floor of the ocean: GitHub abides. 
+"someplace stable" these days. Regardless of whether my laptop falls into a volcano on the sea floor: 
+GitHub abides. 
 
 
 I am writing these notes in the order they occur to me; so this is based on ***improvised pragmatism***.
 This first part began as an enumeration but quickly devolves into a story.
+
+
+> Another version of this material is in a Jupyter notebook in my **`ocean`** repo but it is a 
+> bit hard to find. Chapter 5 I believe.
 
 
 ## 1. Markdown
@@ -45,8 +50,10 @@ def Bumpkins(n, iq):
         print('oh dear, this is tragic...')
 ```
 
-Notice that the back-tick is a *verbatim* delimeter. Other delimiters are not respected when they occur inside back-ticks. 
-On the other hand, asterisk delimiters *outside* of backtick delimiters work great. `**this**` versus **`this`**. 
+Notice that the back-tick is a *verbatim* delimeter. Other delimiters are not respected when they occur 
+inside back-ticks. 
+On the other hand, asterisk delimiters *outside* of backtick delimiters work great. 
+`**this**` versus **`this`**. 
 
 
 ## 3. asterisks
@@ -56,17 +63,68 @@ In this text please find single, double, and triple asterisk delimiters.
 *Single*. **Double**. ***Triple***. Do ****four in a row**** do anything different? 
 
 
+## 4. quotations
 
-HTML can be embedded in a markdown file. This is useful, for example, if you would like to embed an image in a markdown page. But this is beyond scope for this email. 
 
-Now we turn to the last topic of this email, which is a digression. The practical matter of git is deferred to a subsequent email.
+A leading `>` character renders text as a quotation. This is useful to offset "special note" blocks of text. 
 
-Some years ago -- never mind how long precisely -- one of our heroes to whom you have not yet been introduced was asked to write a book. He was working as an assistant professor at a small college in Pasadena California at the time; and he took it on himself to reply "Yes, but wait! Let me write a more ambitious and a better book." Upon receiving approval he embarked on the project which has occupied him to this day, some 60 years. The history of this book, which I shall abbreviate using its acronym TAOCP, is beyond the scope of this email. But it is by all accounts a remarkable book, in multiple volumes. I have not read it but I rather think I ought to, now that I am exploring this topic. It concerns algorithms, particularly computer algorithms.
 
-Now some years went by and books are often periodically revised. So it was that our subject received the proof sheets for the second edition of Volume 2 of his TAOCP book. 
+## 5. html
 
-As an aside you might look up a thumbnail sketch of 'Tao' since it is rather poetically appropriate in this context. And when Professor Knuth is involved, one suspects that any poetry is not by accident. 
 
-So enter stage left one Donald Ervin Knuth. 
+HTML can be embedded in a markdown file. This is useful, for example, to embed an image 
+in a markdown page. More detail is out of scope at the moment. 
 
-Anyway the proofs were considered inferior compared to how things looked in the first edition. So Prof Knuth did what anyone else would do upon receiving proofs plagues by inferior quality typesetting. 
+
+## 6. wandering off into the story
+
+
+Now I turn to the last topic of this segment, a digression. The practical matter of `git` is 
+deferred to a subsequent page.
+
+
+Some years ago -- never mind how long precisely -- one of our heroes to whom you have not yet been 
+introduced was asked to write a book. 
+He was working as an assistant professor at a small college in Pasadena at the time; and he took a 
+close look at the idea and upped
+the ante in reply: "Yes, but wait! My idea is a more ambitious and a better book... in 12 chapters."  
+Upon receiving approval 
+he embarked on the project which has occupied him to this day, some 60 years later. He appears to 
+have done some other work as well
+in the mean time. 
+
+
+The history of this book, which I shall refer to using the title acronym TAOCP, is beyond the 
+scope of these notes. But it is 
+by all accounts a remarkable book, or really collection, in six volumes so far. I have not read 
+it as I have not needed it. 
+But since I'm discovering it right now I shall check out a copy and we can take a look. It 
+concerns algorithms, particularly 
+computer algorithms. But back to our story. 
+
+
+Some years went by from that 1962 starting point; and as technical books are often periodically 
+revised. Volume 2 went through
+this process in 1976. So it was that our subject received the proofs for TAOCP Volume 2; 
+which had been 
+typeset in a new manner. 
+
+
+As an aside you might look up a thumbnail sketch of 'Tao'. It seems poetically appropriate
+and when Professor Knuth is involved, I am starting to suspect that any found poetry is not 
+accidental when he is involved.
+And it seems I have neglected this individual's name so far.
+
+
+Enter stage left one Donald Ervin Knuth. Just one aside on his backstory: It is not common, 
+upon an individual completing their bachelor's degree, for the
+faculty of their institution to vote to also grant the individual a master's degree: Simply 
+in recognition of their efforts. 
+
+
+Anyway the proofs were considered inferior compared to how things looked in the first edition. 
+So Professor Knuth did what anyone else would do upon receiving proofs that are plagued by inferior 
+quality typesetting. He designed and wrote his own typesetting system and made sure it would 
+be universally available for anyone's use at no cost. This system he named TeX. This experiment 
+in open source proved to be very successful: A subset of the academic community learned and adopted
+TeX, enabling them to create beautiful articles and books from that day to this. 
