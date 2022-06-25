@@ -168,4 +168,14 @@ articles that are readable. I would say transcend readable to beautiful.
 Forty years and counting, for decades to come. 
 
 
-I do not write using TeX. To write my graduate thesis I became moderately 
+I do not write using TeX. To write my graduate thesis I became moderately fluent in
+LaTeX; which is a content oriented system that uses TeX for document layout. I think
+of LaTeX (correctly or incorrectly) as a human-friendly wrapper around TeX. Anyway
+by moderate fluency I mean that I can write this equation...
+
+
+$$
+x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6sqrt{\cdots}}}}}}
+$$
+
+...pretty much off the top of my head.
