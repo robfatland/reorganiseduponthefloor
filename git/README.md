@@ -1,4 +1,4 @@
-$e^{i \pi} + 1 = 0, \; give \; or \; take...$
+$e^{i \pi} + 1 = 0, \ give \, or \. take...$
 
 
 Please place some version of these notes; as you like; someplace stable. I treat GitHub as my 
