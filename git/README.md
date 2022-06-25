@@ -175,7 +175,7 @@ by moderate fluency I mean that I can write this equation...
 
 
 $$
-x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6sqrt{\cdots}}}}}}
+x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6\sqrt{\cdots}}}}}}
 $$
 
 ...pretty much off the top of my head.
