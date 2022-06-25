@@ -37,7 +37,8 @@ Common markdown formatting includes....
 ## 2. The back-tick character 
 
 
-This is very important (keyboard upper left: `) A single back-tick is used as a delimiter for 
+This is very important (keyboard upper left: \`) Of course to print that character I used 
+the backslash to indicate *literal*: \\\`. A single back-tick is used as a delimiter for 
 code that remains inline with surrounding text. For example this sentence has a `True` in it. 
 
 
