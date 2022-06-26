@@ -142,31 +142,31 @@ which had been
 typeset in a new manner. 
 
 
-As an aside you might look up a thumbnail sketch of 'Tao'. It seems poetically appropriate
-and when Professor Knuth is involved, I am starting to suspect that any found poetry is not 
-accidental when he is involved. I offer as evidence the version numbering system used for
+As an aside you might look up 'Tao'. It seems poetically appropriate
+and for Professor Knuth I suspect any found poetry is not 
+accidental. I offer as evidence the version numbering system used for
 the software described below.
-Ah, and it seems I have neglected to provide this individual's name so far.
+Ah, and it seems I have neglected to properly introduce his name.
 
 
-Enter stage left one Donald Ervin Knuth. Just one anecdote from his biography: It is not common, 
+Enter stage left: Professor Donald Ervin Knuth. Just one anecdote from his biography: It is not common, 
 upon an individual's completing their bachelor's degree, for the
-faculty of their institution to conclude that they should also award the individual a master's degree. 
+faculty of their institution to conclude that they should also be awarded a master's degree. 
 
 
-Anyway the proofs were considered inferior compared to how things looked in the first edition. 
-So Professor Knuth did what anyone else would do upon receiving proofs that are plagued by inferior 
-quality typesetting. He designed and wrote his own typesetting system and made sure it would 
+Anyway the proofs were found to be inferior compared to how things looked in the first edition. 
+So Professor Knuth did what anyone else would do upon receiving proofs that suffered from inferior 
+quality typesetting. He designed and wrote his own typesetting system, ensuring it would 
 be universally available for anyone's use at no cost. This system he named TeX. It went through
 many revisions from 1978 to 1989 when it was 'officially' released; but I believe it was in
 serious academic use when I started college in 1982.
 
 
-This contribution to
-open source usefulness has proven successful: Academics (and publishing companies and many
-other adopters) have learned and adopted
-TeX according to need; and have created thousands of books and hundreds of thousands of
-articles that are readable. I would say transcend readable to beautiful. 
+This system called TeX has proved to be quite successful: 
+Academics and publishing companies and many
+other adopters have learned and adopted
+it and have created thousands of books and hundreds of thousands of
+articles that are a joy to behold, surpassing *readable* in favor of *beautiful*. 
 Forty years and counting, for decades to come. 
 
 
@@ -186,6 +186,17 @@ Whereas
 footnotes and page headers and diagrams and tables and things of that sort would 
 take me some digging to set up proper.
 
+$$
+\raisebox{0pt}[0pt][0pt]{\Large%
+\textbf{Aaaa\raisebox{-0.3ex}{aa}%
+\raisebox{-0.7ex}{a}%
+\raisebox{-1.2ex}{r}%
+\raisebox{-2.2ex}{g}%
+\raisebox{-4.5ex}{h}}}
+she shouted, but not even the next
+one in line noticed that something
+terrible had happened to her.
+$$
 
 With that, I'll continue in 
 [this document](https://github.com/robfatland/reorganiseduponthefloor/edit/main/git/bash_and_git.md)
