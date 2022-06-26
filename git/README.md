@@ -167,7 +167,7 @@ Academics and publishing companies and many
 other adopters have learned and adopted
 it and have created thousands of books and hundreds of thousands of
 articles that are a joy to behold, surpassing *readable* in favor of *beautiful*. 
-Forty years and counting, for decades to come. 
+Forty years and counting, decades more to come. 
 
 
 I do not use TeX directly. To write my graduate thesis I became moderately fluent in
@@ -186,17 +186,7 @@ Whereas
 footnotes and page headers and diagrams and tables and things of that sort would 
 take me some digging to set up proper.
 
-$$
-\raisebox{0pt}[0pt][0pt]{\Large%
-\textbf{Aaaa\raisebox{-0.3ex}{aa}%
-\raisebox{-0.7ex}{a}%
-\raisebox{-1.2ex}{r}%
-\raisebox{-2.2ex}{g}%
-\raisebox{-4.5ex}{h}}}
-she shouted, but not even the next
-one in line noticed that something
-terrible had happened to her.
-$$
+
 
 With that, I'll continue in 
 [this document](https://github.com/robfatland/reorganiseduponthefloor/edit/main/git/bash_and_git.md)
