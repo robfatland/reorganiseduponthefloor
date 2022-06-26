@@ -14,17 +14,26 @@ This first part began as an enumeration but quickly devolves into a story.
 > bit hard to find. Chapter 5 I believe.
 
 
-## 1. Markdown
+# Markdown
+
+
+## 1. Intro
 
 
 GitHub supports markdown format: When a github file with extension `.md` is opened in Chrome
-(say) the view reflects the rules of "markdown" as a formatting protocol. This includes a "default" 
-file at the top of the repo called `README.md`. You might create a repo under your user account 
-called **`howto`** which contains your notes for important / commonly used procedures. 
-That repo need not have any Python or java or whatever; it might be entirely markdown. 
+(say) the view reflects the rules of "markdown" as a formatting protocol. Commonly repos
+have a "default" markdown file called `README.md`. 
 
 
-Common markdown formatting includes....
+You have the option to create a repo under your user account 
+called **`howto`** which contains your version of these notes and so on; maybe it saves 
+you some look-up time. Documentation repos might be entirely markdown.
+
+
+What can markdown do? Well it supports several different types of formatting.
+
+
+Common markdown formatting includes ***headers***:
 
 
 # Major Heading
@@ -32,6 +41,9 @@ Common markdown formatting includes....
 ### Subsubsection
 #### Pretty fine grained at this point
 ##### Very fine grain
+
+
+Next there is...
 
 
 ## 2. The back-tick character 
@@ -63,14 +75,17 @@ def Bumpkins(n, iq):
 Notice that the back-tick is a *verbatim* delimeter. Other delimiters are not respected when they occur 
 inside back-ticks. 
 On the other hand, asterisk delimiters *outside* of backtick delimiters work great. 
-`**this**` versus **`this`**. 
+`**asterisks inside**` versus **`asterisks on the outside`**. 
+
+
+Speaking of...
 
 
 ## 3. asterisks
 
 
 In this text please find single, double, and triple asterisk delimiters. 
-*Single*. **Double**. ***Triple***. Do ****four in a row**** do anything different? 
+*Single*. **Double**. ***Triple***. How about do ****four asterisks in a row**** do anything different? 
 
 
 ## 4. quotations
@@ -90,9 +105,9 @@ in parentheses. [This link goes to the Google search page](https://google.com). 
 is constructed as `[link text](https://google.com)`. 
 
 
-Within a document, cursor hover over headings reveals they have intrinsic link addresses.
-You can copy and paste those links into the (hyperlink) following a \[link name\].
-However for linking within a page you can just use the pound sign \# followed by
+Within a document, cursor hover over headings reveals link addresses.
+You can copy and paste those into the (hyperlink) following a \[link name\].
+For within a page, links to headers are simpler: Just a pound sign \# followed by
 the header name; with spaces replaced by hyphens.
 [This one goes up to the back-tick section](#2-the-back-tick-character), for
 example. The link string here is `#2-the-back-tick-character`.
@@ -113,8 +128,8 @@ Now I turn to the last topic of this segment, a digression. The practical matter
 deferred to a subsequent page.
 
 
-Some years ago -- never mind how long precisely -- one of our heroes to whom you have not yet been 
-introduced was asked to write a book. 
+Some years ago -- never mind how long precisely -- one of our possible heroes 
+was asked to write a book. 
 He was working as an assistant professor at a small college in Pasadena at the time; and he took a 
 close look at the idea and upped
 the ante in reply: "Yes, but wait! My idea is a more ambitious and a better book... in 12 chapters."
@@ -122,17 +137,17 @@ Whereupon
 he embarked on the expanded project which in turn expanded into a treatise on computer science,
 and that work has occupied him to this day, some 60 years later. He appears to 
 have done some other work as well
-in the mean time. For example he gives interesting lectures each December that are well regarded.
+in the mean time. For example he gives interesting lectures each December.
 (These may be found on YouTube.)
 
 
 The history of this book, which I shall refer to using the title acronym TAOCP, is beyond the 
 scope of these notes. But it is 
-by all accounts a remarkable book, or really collection, in six volumes so far. I have not read 
+by all accounts a remarkable book, or books, six volumes so far. I have not read 
 it as I have not needed it. 
 But since I'm discovering it right now I shall check out a copy and we can take a look. It 
 concerns algorithms, particularly 
-computer algorithms. But back to our story. 
+computer algorithms. Back to our story. 
 
 
 Some years went by from that 1962 starting point; and as technical books are often periodically 
@@ -154,11 +169,11 @@ upon an individual's completing their bachelor's degree, for the
 faculty of their institution to conclude that they should also be awarded a master's degree. 
 
 
-Anyway the proofs were found to be inferior compared to how things looked in the first edition. 
-So Professor Knuth did what anyone else would do upon receiving proofs that suffered from inferior 
-quality typesetting. He designed and wrote his own typesetting system, ensuring it would 
+Anyway the proofs for the second edition were found to be wanting. 
+So Professor Knuth did what anyone would do upon receiving proofs that suffered from deficient 
+typesetting. He designed and wrote his own typesetting system, ensuring it would 
 be universally available for anyone's use at no cost. This system he named TeX. It went through
-many revisions from 1978 to 1989 when it was 'officially' released; but I believe it was in
+many revisions from 1978 to 1989 when it was 'officially' released; but it was in
 serious academic use when I started college in 1982.
 
 
@@ -166,12 +181,12 @@ This system called TeX has proved to be quite successful:
 Academics and publishing companies and many
 other adopters have learned and adopted
 it and have created thousands of books and hundreds of thousands of
-articles that are a joy to behold, surpassing *readable* in favor of *beautiful*. 
+articles that are a joy to behold, surpassing *readable* to often achieve *beautiful*. 
 Forty years and counting, decades more to come. 
 
 
 I do not use TeX directly. To write my graduate thesis I became moderately fluent in
-LaTeX; which is a variant, a content-oriented system that uses TeX for document layout. 
+LaTeX; a content-oriented system that uses TeX for document layout. 
 I think
 of LaTeX (correctly or incorrectly) as a human-friendly wrapper around TeX. Anyway
 by moderate fluency I mean...
@@ -181,10 +196,12 @@ $$
 x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6\sqrt{\cdots}}}}}}
 $$
 
-...is familiar enough (in terms of LaTeX syntax) to compose on the fly. Equations.
+...is easy enough in LaTeX syntax. The trick is to have some time on hand
+to get it just so.
 Whereas
 footnotes and page headers and diagrams and tables and things of that sort would 
-take me some digging to set up proper.
+take me some digging to set up proper. The point is LaTeX is good for all that stuff,
+where TeX is bit harder to learn and use.
 
 
 
