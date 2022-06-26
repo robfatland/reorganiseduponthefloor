@@ -97,6 +97,7 @@ Again that is in my `greenandblack` repo.
 
 ## linux commands
 
+- `source fu.script` executes the commands in `fu.script`
 - `cd` to change directory`
 - `pwd` print working directory
 - `chmod` change permissions
@@ -106,6 +107,7 @@ Again that is in my `greenandblack` repo.
 - `less file` to view the contents of `file` interactively (remembering that less is more)
 - `more file` as an older version of `less`
 - `cp a b` to copy file `a` to a new file called `b`
+- `mv a b` renames file `a` to be file `b`
 - `cat file1 >> file2` copies the contents of file1 onto the end of file2
 - `grep mohawk file1.txt` searches for the occurrence of string `mohawk` in `file1.txt`
     - You can also open the file in an editor and search for `mohawk`; a little more time consuming
@@ -125,8 +127,85 @@ modification. A good example is an IPython or Jupyter notebook file (file extens
 
 ## git
 
+There are two starting points. First is creating a repo of your own on GitHub from scratch
+and then cloning it locally; and modifying the local copy; and updating the GitHub copy; 
+then modifying that repo directly on GitHub; and then updating your local copy. Let's call
+that **Track A**. 
 
-`git clone https://github.com/robfatland/greenandblack.git`
 
-Issue this from (say) your home directory: The clone will appear as subdirectory `greenandblack`.
-It is important to emphasize ...
+Second is copying an existing repo that belongs to someone else as your starting point.
+We'll call that **Track B**.
+
+### Track A
+
+- Log in to GitHub
+- Create new repository
+    - Give it as simple a name as you can think of
+    - Add an MIT License (assuming it is public / open source)
+    - Start it off with a `README.md` file; you don't need to edit this.
+    - Save it and note the clone URL
+- On your local computer
+    - `cd ~`
+    - `git clone https://github.com/youraccount/yourrepo.git`
+        - A clone will appear as subdirectory `yourrepo`
+        - You are now all set to start making modifications to the repo
+
+Time to synch back to the GitHub copy, i.e. push your changes to GitHub.
+
+- On your local computer
+    - `cd ~/yourrepo` to put yourself in the base directory of the repo
+    - `git pull` to make sure nothing has changed at GitHub
+        - Sometimes I edit README files on GitHub and then forget I did so
+    - `git add .` makes all your changes available to commit
+    - `git commit -m 'a short remark telling what I did'`
+    - `git push`
+        - Here you should need to authenticate: Username and GitHub password
+        - You can search on 'saving github credentials locally' to make this step automatic
+
+That should do it. Once you have it down it is pretty fast; just three commands: `git add .; git commit; git push`.
+
+## Track B
+
+On GitHub: Fork the source repo you are interested in (provided this does not step on anyone's 
+intentions concerning use). Now proceed as in **Track A**.
+
+
+## Something goes wrong
+
+
+Sometimes edits and pulls and pushes and mistakes can cross wires. A drastic-sounding solution 
+that isn't really drastic is to re-name your local directory `myrepo_oops` and regard is as a 
+"source bin". It is no longer a git repository; but it has some good stuff in it that *isn't* 
+on GitHub just yet. You just set that aside for a moment. 
+
+
+Now go and do the clone from GitHub to your local machine.
+You can do this because the repo directory isn't there anymore; you renamed it.
+So you have a fresh, accurate clone of your GitHub repo on your local machine.
+
+
+Now you can move things you changed from your feeder bin directory back into your cloned repo
+folder. You should be able to git add/commit/push this back to GitHub and if all goes well you
+are back to good. 
+
+
+Conversely if things get busted *on GitHub*: Similar procedure. Here I'm assuming you have 
+all the stuff you need on your local machine. So create a new repo on GitHub with a new name.
+Clone that locally. Update the local copy from the local good stuff. `git push` that back up 
+to GitHub. Now you can even delete the old GitHub repo if you like. 
+
+
+This doesn't even touch 94% of GitHubs powerful features like rollbacks and such. This is just
+a basic get started toolkit. Plan to learn `git` properly and teach it to me.
+
+
+
+
+
+
+
+
+
+
+
+
