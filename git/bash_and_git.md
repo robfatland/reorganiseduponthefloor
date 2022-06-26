@@ -129,4 +129,4 @@ modification. A good example is an IPython or Jupyter notebook file (file extens
 `git clone https://github.com/robfatland/greenandblack.git`
 
 Issue this from (say) your home directory: The clone will appear as subdirectory `greenandblack`.
-It is important to emphasize 
+It is important to emphasize ...
