@@ -153,6 +153,7 @@ Dom says four ways: Keyboard drumming (separate video!), Drum Editor, MIDI Inser
         * **CasinoRoyale Lukagruv** (mp3) is an interesting trombone voice solo over the usual chord progression
         * Criquet
         * Dear Brutus
+        * Desert en passant
         * Divertimento
         * Doxology
         * Festes Waltz
