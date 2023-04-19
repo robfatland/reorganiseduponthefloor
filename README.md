@@ -1,6 +1,7 @@
-music? sure! See the **tunes** folder.
+music? sure! See the **[tunes](https://github.com/robfatland/reorganiseduponthefloor/tree/main/tunes)** folder.
 
-Here is a little cummings poem and it took me years to parse *graze at pause* (not *'gaze'*!) 
+
+Here is a little ee cummings poem; took me years to parse *graze at pause* (not *'gaze'*!) 
 Why so long? Just becud. 
 
 
@@ -45,12 +46,12 @@ Reference: How to create a table in markdown:
 | Activity | Amount |  Date | Notes |
 | -------- | ------ | ---- | ---- |
 | indicators |
-| scale | lourde |  03-AUG-2018 | 30.8 |
+| scale | roof |  03-AUG-2018 | 1.2 |
 
 
 
 
-## [github.com/robfatland](https://github.com/robfatland), an organization of dubious merit
+## [github.com/robfatland](https://github.com/robfatland), a dubious organization
 
 
 ### Research and Outreach
@@ -71,7 +72,9 @@ Reference: How to create a table in markdown:
    * percival (carry to othermathclub)
    * genomics (delete after check on value)
 
+
 ### practical cloud
+
 
 * cli: expand
 * nlp: bring to usable state
@@ -83,7 +86,9 @@ Reference: How to create a table in markdown:
 * greenandblack: catch-all, some material should go elsewhere
     * describes using gh-pages
 
+
 ### miscellaneous
+
 
 * ops
     * Older version of organization effort.
@@ -92,25 +97,13 @@ Reference: How to create a table in markdown:
     * notes on salmon fishing
 
 
-## The other organizations I contribute to
-
-### cloudmaven
-
-### pangeo-community
-
-### haciendata
-
-### Port Cormorack
-
-### whaledr
-
-### research2cloud
-
-### escience-pangeo
-
-### eScience
-
-Private UW eScience Institute
+- whither these?
+    - cloudmaven
+    - Port Cormorack
+    - whaledr
+    - research2cloud
+    - escience-pangeo
+    - eScience
 
 ### CloudBank
 
