@@ -1,9 +1,14 @@
 # Cubase
 
+
+The only real difficulty with using a DAW is the evaporated years of one's life: sorting out pathologies.
+
+
 ## Terms 
 
-CC is Continuous Controller for MIDI and it means something like a pitch bend wheel that can emit a string of modifiers.
 
+- CC is Continuous Controller for MIDI and it means something like a pitch bend wheel that can emit a string of modifiers.
+- LUFS is Loudness, K-weighted, relative to full scale (LKFS) or Loudness Units ditto
 
 ## Pre or Post Fader?
 
@@ -14,7 +19,9 @@ The way to think about this is imagining starting with the fader at Zero and put
 then dropping the fader and seeing the "ghost" result taking over for the main signal. Maybe side-chaining
 compression would be a candidate where you fade down a kick but still use it to trigger the compressor.
 
+
 ## Gain Staging
+
 
 From Dom Sigalas (and others)
 
