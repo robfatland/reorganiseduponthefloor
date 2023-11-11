@@ -16,6 +16,9 @@ compression would be a candidate where you fade down a kick but still use it to 
 
 ## Gain Staging
 
+From Dom Sigalas (and others)
+
+
 The goal is -12 dB on the master bus, leaving headroom in the mix. Initial gain stage target is -18dB via PreGain 
 as a rule of thumb.
 Drums cut through hotter; so pushing them to lower, even -24dB, is reasonable. 
@@ -34,6 +37,52 @@ Here is a gain staging sequence:
 * Audio tracks are Events or Clips; which have clip gain setting (starting at unity): Magnitude of the waveform. Use if necessary.
 * Write automation: Using the fader write an envelope during playback. Attention, post: *All* the adjustable stuff, like tilt
 * Not covered yet: Full work flow, EQ particularly bass, Compression, Mastering, Mix Down, returning to a loud mix if so desired.
+
+
+Another pass at this: 
+- Loudness is in the Mix (concluding at the Master)
+- "Crest factor" is Peak to RMS ratio
+
+
+Part 1: Audio tracks
+    - Audio native -12 to -18dB
+        - Method 1: Use clip gain event-by-event
+        - Method 2: Circle-e channel settings: edit window: Pre-Gain (happens before all downstream processing)
+           - Can also get to this on the Mixer
+- Gain staging before mixing
+- Audio tracks: Natively -12 to -18 in this order of methods:
+    - Pre-gain: Fader is where it wants to be (at 0) optimal pixels for fine-tuning
+    - Event-based volume editing: Pencil tool, tick dots along the upper edge of the event, drag down to moderate
+    - Event or clip gain 
+    - Fader: Enable Write automation.
+
+What about MIDI tracks?
+
+
+Topic: Plugin-to-Plugin
+    - Example 1176 Compressor emulator sees a level that can be affected by the EQ
+        - So changing the EQ changes compression in addition to changing the sound of the track
+    - Use the in/out toggle to check
+    - Do not let 'louder is better' control the process
+
+
+Topic: Digital / Analog back out into the world
+    - Leaving the DAI: Look at the Audio Connections: control for output gain control
+
+
+Topic: Busses / Masters
+    - Clipping with a lot of groups and busses coming in is a common issue
+        - Turn the Master bus down so it does not clip
+        - At the same time we want the signal to the monitors sounding good. Whatever that means. 
+        - So not clipping the Master bus is the name of the game: Peak metering
+            - RHS of the DAW
+            - Main meter: RMS and Peak value 
+            - Other tab: LUFS and other features
+            - LUFS is overall loudness overtime... something like -14 is a good LUFS level
+            - True Peak should be well below Zero
+
+
+
 
 
 ## Scoring
