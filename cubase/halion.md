@@ -67,6 +67,7 @@
 
 - Review the default behavior of MIDI triggers in an Instrument Track: See part 1 above
     - Features to manage
-        - Modify the mapping to keyboard to accurately reflect pitch
-        - Fix the sample duration regardless of trigger pitch
+        - Keyboard note accurately reflects playback pitch
+            - EDIT > MAPPING > Modify Root key (in this case to F2)
+        - Fixed-length playback: Does not vary with trigger pitch
 - EDIT > SAMPLE > up-arrow icon is Normalize to dB value shown to the right
