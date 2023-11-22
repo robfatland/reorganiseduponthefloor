@@ -38,7 +38,7 @@
 - Optional: Send the Instrument track to a Reverb FX track
 
 
-Part 2: Panels and terms
+## Part 2: Panels and terms
 
   
 - Program Table is the on deck circle 
@@ -59,7 +59,7 @@ Part 2: Panels and terms
         - A Zone with a yellow icon is empty
 
 
-Part 3: Modifying the Instrument by working with the Sample Editor
+## Part 3: Modifying the Instrument by working with the Sample Editor
 
 
 - Review the default behavior of MIDI triggers in an Instrument Track: See part 1 above
