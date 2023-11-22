@@ -35,7 +35,7 @@
 - Close the editor and re-open it: Verify Halion starts in pretty much the same configuration
 - In Halion Master select the folder icon for 'Load Multi-Program'
     - The interface filter is Stupid: Click on Factory to De-select, make sure User is selected: Should see 'turn left'.
-    - I have no idea where User stuff is stowed
+    - I believe this is stored in the Project/Audio folder
 - Stop and re-start Cubase to verify everything is still there; instrument should again open in the same configuration
 - Optional: Check that the Instrument track can monitor a physical keyboard and play polyphonic samples at all pitches
 - Optional: Send the Instrument track to a Reverb FX track
@@ -67,7 +67,12 @@
 
 - Review the default behavior of MIDI triggers in an Instrument Track: See part 1 above
     - Features to manage
-        - Keyboard note accurately reflects playback pitch
-            - EDIT > MAPPING > Modify Root key (in this case to F2)
-        - Fixed-length playback: Does not vary with trigger pitch
+        - To do: Keyboard note accurately reflects playback pitch
+            - Solution: EDIT > MAPPING > Modify Root key (in this case to F2)
+        - To do: Fixed-length playback duration, pitch independent
+            - Solution: None yet
+- EDIT > ZONE has some useful features but is mostly replicated by EDIT > SAMPLE
+    - As a result: Mostly leave this alone in favor of...
 - EDIT > SAMPLE > up-arrow icon is Normalize to dB value shown to the right
+    - There are three sets of range markers: Sample range (S, S), Loop range (L, L) and Release (R, R)
+        - Visibility is tied to playback mode in EDIT > SAMPLE editor LOOP page (tab at lower left)
