@@ -1,4 +1,7 @@
-# Halion samples
+# Halion sample editor
+
+
+[YouTube One Man And His Songs video](https://youtu.be/AJJIldGPX7o?si=AfolDtTUFjlRS59E)
 
 
 ## Part 1: Sample in Cubase > Halion Instrument configuration > save > trigger
