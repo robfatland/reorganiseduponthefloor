@@ -76,3 +76,7 @@
 - EDIT > SAMPLE > up-arrow icon is Normalize to dB value shown to the right
     - There are three sets of range markers: Sample range (S, S), Loop range (L, L) and Release (R, R)
         - Visibility is tied to playback mode in EDIT > SAMPLE editor LOOP page (tab at lower left)
+- Topic: Working with the Wavetable
+- Topic: Working with envelopes
+- Topic: Multiple Zones e.g. turn-left and turn-right
+- Topic: Building an Instrument by combining adjacent small pitch ranges
