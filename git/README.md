@@ -39,8 +39,8 @@ Use: Back-ticks produce fixed-width-font text. This is useful for indicating or 
 `code`. 
 
 
-A single back-tick keeps the resulting text inline with the surrounding text. For example this sentence has \`True\` in it. 
-Whereas: Use three back-ticks to delimit multi-line code blocks, no longer inline.
+A single back-tick keeps the resulting text inline with the surrounding text. For example this sentence has \`True\` in the markdown which renders inline as `True`. 
+Three back-ticks delimit multi-line code blocks:
 
 
 ```
