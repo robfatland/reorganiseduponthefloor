@@ -1,7 +1,7 @@
 # Markdown
 
 
-## 1. headers
+## 1 headers
 
 
 GitHub supports markdown format: When a github file with extension `.md` is opened 
@@ -28,7 +28,7 @@ renders as
 
 
 
-## 2. The back-tick character 
+## 2 The back-tick character 
 
 
 The back-tick found at keyboard upper left looks like this: \` .
@@ -54,14 +54,14 @@ inside a backtick field. However asterisk delimiters *outside* of backtick delim
 `**asterisks inside**` versus **`asterisks on the outside`**. 
 
 
-## 3. asterisks
+## 3 asterisks
 
 
 In this text please find single, double, and triple asterisk delimiters. 
 \*Single\*. \*\*Double\*\*. \*\*\*Triple\*\*\* produces *Single* **Double** ***Triple***. 
 
 
-## 4. quotations
+## 4 quotations
 
 
 A leading `>` character renders text as a quotation. 
@@ -70,7 +70,7 @@ A leading `>` character renders text as a quotation.
 > This is useful to offset "special note" offset blocks of text. 
 
 
-## 5. hyperlinks 
+## 5 hyperlinks 
 
 
 Place the text to appear within square bracks and follow it with no spaces by the link URL 
@@ -82,17 +82,17 @@ Within a document viewed in a browser: Holding the cursor over a link reveals th
 Within a page, links to headers are simple: Type a pound sign \# followed by
 a header name with spaces replaced by hyphens. (It may not work at the moment.)
 
-This `[header section link](#1.-headers)` becomes [header section link](#-1.-headers).
+This `[header section link](#1-headers)` becomes [header section link](#1-headers).
 
 
 
-## 6. html
+## 6 html
 
 
 HTML can be embedded in a markdown file.
 
 
-## 7. wandering off into the story
+## wandering off into the story
 
 
 Now I turn to the last topic of this segment, a digression. The practical matter of `git` is 
