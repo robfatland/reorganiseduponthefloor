@@ -1,40 +1,24 @@
-$e^{i \pi} + 1 = 0, \ give \ or \ take...$
-
-
-Please place some version of these notes; as you like; someplace stable. I treat GitHub as my 
-"someplace stable" these days. Regardless of whether my laptop falls into a volcano on the sea floor: 
-GitHub abides. 
-
-
-I am writing these notes in the order they occur to me; so this is based on ***improvised pragmatism***.
-This first part began as an enumeration but quickly devolves into a story.
-
-
-> Another version of this material is in a Jupyter notebook in my **`ocean`** repo but it is a 
-> bit hard to find. Chapter 5 I believe.
-
-
 # Markdown
 
 
-## 1. Intro
+## 1. Headers
 
 
-GitHub supports markdown format: When a github file with extension `.md` is opened in Chrome
-(say) the view reflects the rules of "markdown" as a formatting protocol. Commonly repos
-have a "default" markdown file called `README.md`. 
+GitHub supports markdown format: When a github file with extension `.md` is opened 
+(in a browser I mean) the contents are reflected according to "markdown" formatting protocol.
 
 
-You have the option to create a repo under your user account 
-called **`howto`** which contains your version of these notes and so on; maybe it saves 
-you some look-up time. Documentation repos might be entirely markdown.
+Common markdown formatting includes ***headers***. The following text:
 
+```
+# Major Heading
+## Subsection
+### Subsubsection
+#### Pretty fine grained at this point
+##### Very fine grain
+```
 
-What can markdown do? Well it supports several different types of formatting.
-
-
-Common markdown formatting includes ***headers***:
-
+renders as
 
 # Major Heading
 ## Subsection
@@ -43,49 +27,38 @@ Common markdown formatting includes ***headers***:
 ##### Very fine grain
 
 
-Next there is...
-
 
 ## 2. The back-tick character 
 
 
-This is very useful: The back-tick usually found at keyboard upper left: \` .
-Of course to print this character here I used 
-the backslash *literal* delimiter; so what is in the markdown file is **\\\`**  . 
+The back-tick found at keyboard upper left looks like this: \` .
+To print this character here I used the backslash *literal* delimiter; so the markdown is **\\\`**  . 
 
 
-Use: Back-ticks create blocks of fixed-width font text, as in an older-style
-computer terminal. This is useful for indicating or quoting `commands` and 
-`computer code`. 
+Use: Back-ticks produce fixed-width-font text. This is useful for indicating or quoting `commands` and 
+`code`. 
 
 
-A single back-tick is used as a delimiter for 
-code that remains inline with surrounding text. For example this sentence has a `True` in it. 
-
-
-Use three back-ticks to delimit multi-line code blocks
+A single back-tick keeps the resulting text inline with the surrounding text. For example this sentence has \`True\` in it. 
+Whereas: Use three back-ticks to delimit multi-line code blocks, no longer inline.
 
 
 ```
-def Bumpkins(n, iq):
+def Bumpkins(n, qi):
     for i in range(n):
         print('oh dear, this is tragic...')
 ```
 
 Notice that the back-tick is a *verbatim* delimeter. Other delimiters are not respected when they occur 
-inside back-ticks. 
-On the other hand, asterisk delimiters *outside* of backtick delimiters work great. 
+inside a backtick field. However asterisk delimiters *outside* of backtick delimiters work fine. Compare:
 `**asterisks inside**` versus **`asterisks on the outside`**. 
-
-
-Speaking of...
 
 
 ## 3. asterisks
 
 
 In this text please find single, double, and triple asterisk delimiters. 
-*Single*. **Double**. ***Triple***. How about do ****four asterisks in a row**** do anything different? 
+\*Single\*. \*\*Double\*\*. \*\*\*Triple\*\*\* produces *Single* **Double** ***Triple***. 
 
 
 ## 4. quotations
@@ -94,10 +67,10 @@ In this text please find single, double, and triple asterisk delimiters.
 A leading `>` character renders text as a quotation. 
 
 
-> This is useful to offset "special note" blocks of text. 
+> This is useful to offset "special note" offset blocks of text. 
 
 
-## 6. hyperlinks 
+## 5. hyperlinks 
 
 
 Place the text to appear within square bracks and follow it with no spaces by the link URL 
@@ -105,20 +78,17 @@ in parentheses. [This link goes to the Google search page](https://google.com). 
 is constructed as `[link text](https://google.com)`. 
 
 
-Within a document, cursor hover over headings reveals link addresses.
-You can copy and paste those into the (hyperlink) following a \[link name\].
-For within a page, links to headers are simpler: Just a pound sign \# followed by
-the header name; with spaces replaced by hyphens.
-[This one goes up to the back-tick section](#2-the-back-tick-character), for
-example. The link string here is `#2-the-back-tick-character`.
+Within a document viewed in a browser: Holding the cursor over a link reveals the link address.
+Within a page, links to headers are simple: Type a pound sign \# followed by
+a header name with spaces replaced by hyphens.
+[This link jumps up to the asterisk section](#3.-asterisks).
 
 
 
 ## 6. html
 
 
-HTML can be embedded in a markdown file. This is useful, for example, to embed an image 
-in a markdown page. More detail is out of scope at the moment. 
+HTML can be embedded in a markdown file.
 
 
 ## 7. wandering off into the story
