@@ -95,87 +95,34 @@ HTML can be embedded in a markdown file.
 ## wandering off into the story
 
 
-Now I turn to the last topic of this segment, a digression. The practical matter of `git` is 
-deferred to a subsequent page.
+Now I turn to a digression. 
 
 
-Some years ago -- never mind how long precisely -- one of our possible heroes 
-was asked to write a book. 
+Some years ago Don Knuth was asked to write a book. 
 He was working as an assistant professor at a small college in Pasadena at the time; and he took a 
-close look at the idea and upped
-the ante in reply: "Yes, but wait! My idea is a more ambitious and a better book... in 12 chapters."
-Whereupon
-he embarked on the expanded project which in turn expanded into a treatise on computer science,
-and that work has occupied him to this day, some 60 years later. He appears to 
-have done some other work as well
-in the mean time. For example he gives interesting lectures each December.
-(These may be found on YouTube.)
+close look at the challenge and replied: "Wait! My idea is a more ambitious and a better book... 12 chapters."
+Whereupon he embarked on the expanded project which in turn expanded into a treatise on computer science,
+and that work has occupied him to this day. He has done and still does other interesting things as well, 
+for example giving an interesting lecture each December. (These lectures may be found on YouTube.)
 
 
-The history of this book, which I shall refer to using the title acronym TAOCP, is beyond the 
-scope of these notes. But it is 
-by all accounts a remarkable book, or books, six volumes so far. I have not read 
-it as I have not needed it. 
-But since I'm discovering it right now I shall check out a copy and we can take a look. It 
-concerns algorithms, particularly 
-computer algorithms. Back to our story. 
-
-
-Some years went by from that 1962 starting point; and as technical books are often periodically 
-revised, Volume 2 went through
-this process in 1976. So it was that our subject received the proofs for TAOCP Volume 2; 
-which had been 
-typeset in a new manner. 
-
-
-As an aside you might look up 'Tao'. It seems poetically appropriate
-and for Professor Knuth I suspect any found poetry is not 
-accidental. I offer as evidence the version numbering system used for
-the software described below.
-Ah, and it seems I have neglected to properly introduce his name.
-
-
-Enter stage left: Professor Donald Ervin Knuth. Just one anecdote from his biography: It is not common, 
-upon an individual's completing their bachelor's degree, for the
-faculty of their institution to conclude that they should also be awarded a master's degree. 
-
-
-Anyway the proofs for the second edition were found to be wanting. 
-So Professor Knuth did what anyone would do upon receiving proofs that suffered from deficient 
-typesetting. He designed and wrote his own typesetting system, ensuring it would 
-be universally available for anyone's use at no cost. This system he named TeX. It went through
+The book is known as TAOCP which is short for The Art Of Computer Programming. 
+By all accounts a remarkable series of books, six volumes to date. 
+When Volume 2 was going through the publication process in 1976 some
+proofs were sent to Professor Knuth. He found them wanting... and being
+an energetic individual he solved the problem of typesetting his book
+properly by designing and writing a typesetting system. This he published
+in such a manner as to ensure that his system would be universally available 
+for anyone's use at no cost. This system he named TeX. It went through
 many revisions from 1978 to 1989 when it was 'officially' released; but it was in
-serious academic use when I started college in 1982.
+serious academic use as early as 1982.
 
 
-This system called TeX has proved to be quite successful: 
-Academics and publishing companies and many
-other adopters have learned and adopted
-it and have created thousands of books and hundreds of thousands of
-articles that are a joy to behold, surpassing *readable* to often achieve *beautiful*. 
-Forty years and counting, decades more to come. 
+TeX and the closely related content-oriented system LaTeX (that uses TeX under the hood) 
+have proven phenomenally successful. Thousands of books and hundreds of thousands
+of articles have been been typeset with this system that are a joy to read. 
 
 
-I do not use TeX directly. To write my graduate thesis I became moderately fluent in
-LaTeX; a content-oriented system that uses TeX for document layout. 
-I think
-of LaTeX (correctly or incorrectly) as a human-friendly wrapper around TeX. Anyway
-by moderate fluency I mean...
-
-
-$$
-x \ = \ \sqrt{1 + 2\sqrt{1 + 3\sqrt{1 + 4\sqrt{1 + 5\sqrt{1 + 6\sqrt{\cdots}}}}}}
-$$
-
-...is easy enough in LaTeX syntax. The trick is to have some time on hand
-to get it just so.
-Whereas
-footnotes and page headers and diagrams and tables and things of that sort would 
-take me some digging to set up proper. The point is LaTeX is good for all that stuff,
-where TeX is bit harder to learn and use.
-
-
-
-With that, I'll continue in 
+This narrative continues in
 [this document](https://github.com/robfatland/reorganiseduponthefloor/edit/main/git/bash_and_git.md)
-on what little I retain about `bash` and `git`. 
+to return `bash` and `git`. 
