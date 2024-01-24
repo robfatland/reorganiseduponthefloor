@@ -102,25 +102,27 @@ Some years ago Don Knuth was asked to write a book.
 He was working as an assistant professor at a small college in Pasadena at the time; and he took a 
 close look at the challenge and replied: "Wait! My idea is a more ambitious and a better book... 12 chapters."
 Whereupon he embarked on the expanded project which in turn expanded into a treatise on computer science,
-and that work has occupied him to this day. He has done and still does other interesting things as well, 
-for example giving an interesting lecture each December. (These lectures may be found on YouTube.)
+and that work has occupied him to this day. He has done and still does other things as well, 
+for example delivering an interesting lecture each December. (These lectures may be found on YouTube.)
 
 
-The book is known as TAOCP which is short for The Art Of Computer Programming. 
-By all accounts a remarkable series of books, six volumes to date. 
-When Volume 2 was going through the publication process in 1976 some
-proofs were sent to Professor Knuth. He found them wanting... and being
-an energetic individual he solved the problem of typesetting his book
-properly by designing and writing a typesetting system. This he published
-in such a manner as to ensure that his system would be universally available 
-for anyone's use at no cost. This system he named TeX. It went through
+The books he wrote are known collectively as TAOCP, short for The Art Of Computer Programming. 
+By all accounts they are a remarkable series of books, six volumes to date. 
+So here is a detail from that extended project: When Volume 2 was going through the publication 
+process in 1976 some proofs were sent to Professor Knuth for approval. He found the layout,
+the typesetting wanting... and being an energetic individual he solved the problem of re-typesetting 
+his book properly by designing and writing a typesetting system. This he published
+in such a manner as to ensure it would be universally available 
+for anyone's use at no cost. Forever. This system he named TeX. It went through
 many revisions from 1978 to 1989 when it was 'officially' released; but it was in
-serious academic use as early as 1982.
+serious academic use as early as 1982. And it was augmented by a content-oriented 
+'wrapper' called LaTeX that still used TeX under the hood.
 
 
-TeX and the closely related content-oriented system LaTeX (that uses TeX under the hood) 
-have proven phenomenally successful. Thousands of books and hundreds of thousands
-of articles have been been typeset with this system that are a joy to read. 
+TeX and LaTeX have proven phenomenally successful. Thousands of books and hundreds of thousands
+of articles have been elevated from somewhere in the vicinity of 'painful to look at' into a
+typesetting stratosphere, just simply a joy to read. By comparison markdown is a handy but 
+very simple typesetting tool. So hurray for markdown, rejoice... but TeX exists.
 
 
 This narrative continues in
