@@ -1,36 +1,56 @@
+This is sort of an introduction; it is not really vetted for use at this time.
+
+
 ## A quick rundown on `bash`
 
-`bash` is the Bourne Again Shell. A shell is a terminal where you type UNIX commands,
-usually with arguments to specify what you want, and the shell goes and does that 
-and gives you any feedback and leaves you with the prompt again. This command/response
-pattern is interactive. The commands are actually programs that are part of the 
-operating system. Which is UNIX. Or nowadays an improved version of UNIX called Linux.
+
+`bash` is an abbreviation for *the Bourne Again Shell*, an interface to the UNIX operating
+system. Or more constructively to its descendent operating system Linux.
 
 
-Bourne was some chap who wrote a shell; and I think it was improved upon to a version
-two which was called Bourne Again. Hence Bourne Again Shell. Hence `bash`. 
+The transaction is this: You have a prompt that echoes whatever you type at the
+keyboard. You go ahead and type a command together with some appended arguments or 
+qualifiers, as needed, and you hit the `enter` key, and the shell does its best to 
+find and execute that command and provide feedback on how things went, returning
+at the end of all this once again to the prompt. 
 
 
-What about automatically running a lot of commands? Yes, we can do that. Edit a 
-file called `go.script` and then save it. From the command line issue `source go.script`
-and the shell will try and execute those commands in sequence.
+This command/response pattern is interactive. The commands are programs stored
+in memory. 
+
+
+You may ask: What about automatically running a sequence of commands to accomplish
+a larger task. No problem: Edit a text file filled with Linux commands, save it 
+as `go.script`, and at the command prompt issue the command `source go.script`.
+The shell will attempt to run the `source` program, operating on our file `go.script`;
+and the `source` program will in turn attempt to execute the individual 
+commands in sequence.
 
 
 There are three other things to mention. 
 
 
-First, the directory structure is of course a big tree; and we start in our
-home directory, something like `/users/kilroy` or `/home/kilroy`. Find out
-where you are by printing the working directory: `pwd`. There is a little spring
-attached to your back belt loop that goes to your home directory. So go
-somewhere that is not your home directory by changing directory to somewhere
-else: `cd somewhere/else`. Now say `pwd`. Now say `cd` and just hit `Enter`. 
-Now say `pwd` and notice the little spring has pulled you back home. 
+First, the file system is organized as a big tree; and we start a couple
+levels up from the ground floor in a user home directory, say `/home/rob`. 
 
 
-Second, you can list files with `ls` but you can list *all* the files with
-`ls -al`. Do this in your home directory and notice there is a file called
-`.bashrc`. Because it starts with a period it is considered a system file 
+* `pwd`
+* `ls`
+* `mkdir child`
+* `cd child`
+* `pwd`
+* `cd .`
+* `pwd`
+* `cd ..`
+* `pwd`
+* `ls -al`
+
+
+List files with `ls`; and list *all* the files with `ls -al`. 
+In your home directory notice there is a file called `.bashrc`. 
+
+
+Because it starts with a period it is considered a system file 
 so it does not get listed by the vanilla `ls` command. This is a script file
 that runs when you log in and configures things for you, including what your
 prompt looks like. You can edit it and run it again to effect your changes
