@@ -80,8 +80,9 @@ is constructed as `[link text](https://google.com)`.
 
 Within a document viewed in a browser: Holding the cursor over a link reveals the link address.
 Within a page, links to headers are simple: Type a pound sign \# followed by
-a header name with spaces replaced by hyphens.
-[This link jumps up to the asterisk section](#1.-headers).
+a header name with spaces replaced by hyphens. (It may not work at the moment.)
+
+This `[header section link](#1.-headers)` becomes [header section link](#-1.-headers).
 
 
 
