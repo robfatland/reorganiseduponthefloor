@@ -1,7 +1,7 @@
 # Markdown
 
 
-## 1. Headers
+## 1. headers
 
 
 GitHub supports markdown format: When a github file with extension `.md` is opened 
@@ -81,7 +81,7 @@ is constructed as `[link text](https://google.com)`.
 Within a document viewed in a browser: Holding the cursor over a link reveals the link address.
 Within a page, links to headers are simple: Type a pound sign \# followed by
 a header name with spaces replaced by hyphens.
-[This link jumps up to the asterisk section](#3.-asterisks).
+[This link jumps up to the asterisk section](#1.-headers).
 
 
 
