@@ -16,7 +16,12 @@
 
 - Create an audio track, set up a mic, record a short event to be the basis of an Instrument track
     - This example presumes the event is 'turn left' sung at some pitch (F2)
-- Edit the event in the track with VariAudio. **Bounce** the event to remove extra baggage
+- Edit the event in the track with VariAudio.
+- Make the sample independent of its source; and modify e.g. add EQ and other effects
+    - **Bounce** the event to remove baggage (detach from a source)
+    - Edit > Render in Place > Settings > Channel Settings will compound multiple; > As One Event consolidates
+        - These print modified (immutable) events reducing the need for extra processing, down side: static
+        - The render shows up as a new Audio track with the event
 - Can run Halion as standalone or from within Cubase by adding an Instrument track
     - Default Halion is configured as a rectangle of panels and these panels are often tabbed
         - Main idea: Upper right dropdown or right click to manipulate these panels
@@ -91,10 +96,22 @@
     - The idea is to have it on repeat playback while modifying characteristics in Halion
     - Example: EDIT > SAMPLE > PLAYBACK MODE > Normal, Reverse 
 - EDIT > ZONE has some useful features but is mostly replicated by EDIT > SAMPLE
+    - Waveform display 'Signal Window'
+        - Use A at the lower right to see the entire waveform
+        - 
 - EDIT > SAMPLE > up-arrow icon is Normalize to dB value shown to the right
     - There are three sets of range markers: Sample range (S, S), Loop range (L, L) and Release (R, R)
         - Visibility is tied to playback mode in EDIT > SAMPLE editor LOOP page (tab at lower left)
-- Topic: Working with the Wavetable
-- Topic: Working with envelopes
-- Topic: Multiple Zones e.g. turn-left and turn-right
-- Topic: Building an Instrument by combining adjacent small pitch ranges
+
+## Part X: Notes from OMAHS
+
+- Go to EDIT > ZONE
+    - Here we can play with the envelope
+    - ZONE vs SAMPLE tabs
+        - ZONE gives key range information and a few additional advanced features
+- SAMPLE tab is really where we make progress
+## Part X: Note hold length
+## Part X: Working with the Wavetable
+## Part X: Working with envelopes
+## Part X: Multiple Zones e.g. turn-left and turn-right
+## Part X: Instrument as Union of sounds defined across pitch ranges
