@@ -3,12 +3,10 @@
 
 [YouTube One Man And His Songs video](https://youtu.be/AJJIldGPX7o?si=AfolDtTUFjlRS59E)
 
-Pre-notes carried over from the tune ***Favor***
-- Procedure to get an audio clip into the keyboard is needed
-- First create an Audio mono recording: Words, pitch
-- Second use VariAudio to edit this to sound bytes to use
-    - I use 'Bounce' like 'render' to detach an edited signal from its source version
-- Third Create an Instrument track selection Halion 6
+## Preamble
+- The tune **Favor** features multiple instruments; however with duration proportional to pitch
+- Overview is to first set up some audio clip (possibly use VariAudio) and then assign it to a Halion instrument
+    - Remember to use 'Bounce' like a print/render function that detaches the signal from its source copy
 - One man and his songs link above is to the Steinberg Halion 6 Tutorial 'Ep.13: The Sample Editor'
 
 
@@ -19,35 +17,44 @@ Pre-notes carried over from the tune ***Favor***
 - Create an audio track, set up a mic, record a short event to be the basis of an Instrument track
     - This example presumes the event is 'turn left' sung at some pitch (F2)
 - Edit the event in the track with VariAudio. **Bounce** the event to remove extra baggage
-- Can run Halion as standalone or start it by adding an Instrument track
-    - Halion is configured as a rectangle of panels, the panels often tabbed
-    - The main idea is to use upper right dropdown or right click to manipulate these panels
+- Can run Halion as standalone or from within Cubase by adding an Instrument track
+    - Default Halion is configured as a rectangle of panels and these panels are often tabbed
+        - Main idea: Upper right dropdown or right click to manipulate these panels
         - A panel split brings up a menu of 'what is it?' for the new panel
-    - Halion standalone: From the upper left choose the Screenset chooser icon: Advanced configuration
-    - Halion from Add Instrument Track: Choose the Sample configuration
-        - For consistency with standalone: 
-            - Program Tree panel at right: rt-click: choose `split --` and add a Program Table
+    - Halion as standalone: From the upper left choose the Screenset chooser icon: Advanced configuration
+    - Halion as Cubase Add Instrument Track: Choose the Sample Instrument configuration
+        - To make this consistent with the standalone option... 
+            - ...on the Program Tree panel (rt): upper rt menu: `split --`, add a Program Table
             - Remove the Init program from the Slot Rack and the Program Table
     - Panels should now include the Program Table, Program Tree, Slot Rack, Workbench (center), Master (top left)
-        - There are also some keyboard panels at the lower left
+        - Also some keyboard panels at the lower left
+        - Saved this as `blank_single_instrument`
+- Open issue: We seem to be creating a Multi-Instrument; there is not really a Mono-Instrument in contrast; kun?
 - Program Table at lower right: Drag Program 1 to first Slot Rack slot and rename it 'turn left'
-- Program Tree: Click the sine wave icon and add a Sample Zone: yellow icon means empty
+- Program Tree at upper right: Click sine wave icon, add Sample Zone: yellow icon 'Zone 1' is empty
 - Workbench select EDIT in the top row; select SAMPLE in the second row
-    - Drag in the sample from Cubase. Zone 1 icon becomes blue.
-- Save this: Floppy disk icon in the Master, upper left
-- Create a MIDI event with a couple 'turn left' notes and notice the default behavior
-    - Create a MIDI note: Its duration controls length of playback
-    - MIDI controls pitch; note duration becomes longer/shorter in support of pitch
-    - MIDI note start < Transport < MIDI note end: Play iniiates the MIDI note from start (not middle)
-    - C3 plays sample at recorded pitch
-    - The full keyboard from C-2 t o C7 is available
-- Close the editor and re-open it: Verify Halion starts in pretty much the same configuration
-- In Halion Master select the folder icon for 'Load Multi-Program'
-    - The interface filter is Stupid: Click on Factory to De-select, make sure User is selected: Should see 'turn left'.
+    - Drag in the sample from Cubase. Zone 1 icon becomes white, Zone 1 text has light blue background.
+- Save in Master panel
+    - There are two save options, both with floppy disk icons, adjacent
+    - Left floppy disk icon is "Save Multi-program as..." (resulting dialog lists earlier efforts as well)
+    - Right floppy disk icon is "Export Multi-program as VST3 Preset with Files"
+    - Open issue: What do these saves respectively accomplish?
+- In the Instrument track use the pencil to create an editable MIDI event and double click to open in Editor
+    - Use the pencil to create a couple of MIDI 'turn left' notes; notice the default behavior
+        - Duration of the MIDI note controls length of playback, pitch is pitch
+        - The natural duration of a note goes inversely with pitch 
+    - MIDI note start < Transport < MIDI note end: Play initiates the MIDI note from start (not middle)
+    - Open issue: How is the 'plays at recorded pitch' key chosen? Always C3? VariAudio? How to change?
+    - Full keyboard is C-2 through C7
+- Close the editor in Cubase and re-open it: Verify the Instrument track looks the same
+- Close Halion and re-open it: Verify it is in pretty much the same configuration
+- In the Halion Master panel select the folder icon 'Load Multi-Program'
+    - The interface filter is overloaded by default:
+        - Click on Factory to De-select it, ensure User is selected: Should see 'turn left' and other saved Multi-Instruments
     - I believe this is stored in the Project/Audio folder
 - Stop and re-start Cubase to verify everything is still there; instrument should again open in the same configuration
-- Optional: Check that the Instrument track can monitor a physical keyboard and play polyphonic samples at all pitches
-- Optional: Send the Instrument track to a Reverb FX track
+- Check that the Instrument track can monitor a physical keyboard and play polyphonic samples at all pitches
+- Send the Instrument track to a Reverb FX track
 
 
 ## Part 2: Panels and terms
