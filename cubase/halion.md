@@ -11,7 +11,7 @@
 
 
 
-## Part 1: Sample in Cubase > Halion Instrument configuration > save > trigger
+## Part 1: Cubase sample > Halion Multi-Instrument > Save > Trigger
 
 
 - Create an audio track, set up a mic, record a short event to be the basis of an Instrument track
@@ -44,7 +44,7 @@
         - Duration of the MIDI note controls length of playback, pitch is pitch
         - The natural duration of a note goes inversely with pitch 
     - MIDI note start < Transport < MIDI note end: Play initiates the MIDI note from start (not middle)
-    - Open issue: How is the 'plays at recorded pitch' key chosen? Always C3? VariAudio? How to change?
+    - To change 'Play at recorded pitch' key from C3 by default: See section 3 below on changing the root key
     - Full keyboard is C-2 through C7
 - Close the editor in Cubase and re-open it: Verify the Instrument track looks the same
 - Close Halion and re-open it: Verify it is in pretty much the same configuration
@@ -60,35 +60,37 @@
 ## Part 2: Panels and terms
 
   
-- Program Table is the on deck circle 
-- Slot rack is batter(s) up: Qty 4 x 16 = 64
-- Program tree: Sine wave symbol to add Zones; here chosing Sample
+- Program Table lower right: The on deck circle 
+- Slot rack:  Batter(s) up: Qty 4 x 16 = 64
+- Open issue: How to add in additional MultiInstruments to the Slot Rack / Program Table for polyphony?
+- Program tree: Sine wave symbol to add Zones; above we added a Zone of type Sample
 - Workbench
     - Sample Editor is one of many types of editors. 
         - Here: Sample S is a Mono recording isolated on a track in Cubase 
     - Upper bar select the EDIT button
-        - Investigate LOAD/REC...
     - Sub-menu includes SOUND, ZONE, MIDI MOD, MAPPING, SAMPLE, WAVETABLE
-        - ZONE and SAMPLE are what I am interested in; SAMPLE is used for the drag-and-drop
+        - ZONE and SAMPLE are what I am interested in; SAMPLE was used for the drag-and-drop
 - Terms
-    - PRESET is the entire sound entity: 1 or more PROGRAMS (hence 'multi-program')
+    - PRESET is the entire sound entity: 1 or more PROGRAMS (hence 'Multi-Program')
     - PROGRAM is one or more LAYERS 
     - LAYER is a CONTAINER (bucket): A basic building block: Includes a Zone and a Bus and possibly/often a MIDI Controller
     - ZONE: Main element of the LAYER: 5 Types of Basic Sound Source: Synth, Sample, Granular, Organ, Wavetable
         - A Zone with a yellow icon is empty
 
 
-## Part 3: Modifying the Instrument by working with the Sample Editor
+## Part 3: Basic Multi-Program Instrument mods in the Sample editor
 
 
 - Review the default behavior of MIDI triggers in an Instrument Track: See part 1 above
     - Features to manage
         - To do: Keyboard note accurately reflects playback pitch
-            - Solution: EDIT > MAPPING > Modify Root key (in this case to F2)
+            - A solution: EDIT > MAPPING > Modify Root key (in this case to F2)
         - To do: Fixed-length playback duration, pitch independent
             - Solution: None yet
+- In Cubase set up a tight repeat interval about the MIDI note for this sound (+-Effects)
+    - The idea is to have it on repeat playback while modifying characteristics in Halion
+    - Example: EDIT > SAMPLE > PLAYBACK MODE > Normal, Reverse 
 - EDIT > ZONE has some useful features but is mostly replicated by EDIT > SAMPLE
-    - As a result: Mostly leave this alone in favor of...
 - EDIT > SAMPLE > up-arrow icon is Normalize to dB value shown to the right
     - There are three sets of range markers: Sample range (S, S), Loop range (L, L) and Release (R, R)
         - Visibility is tied to playback mode in EDIT > SAMPLE editor LOOP page (tab at lower left)
