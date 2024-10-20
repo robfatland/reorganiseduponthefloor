@@ -3,6 +3,15 @@
 
 [YouTube One Man And His Songs video](https://youtu.be/AJJIldGPX7o?si=AfolDtTUFjlRS59E)
 
+Pre-notes carried over from the tune ***Favor***
+- Procedure to get an audio clip into the keyboard is needed
+- First create an Audio mono recording: Words, pitch
+- Second use VariAudio to edit this to sound bytes to use
+    - I use 'Bounce' like 'render' to detach an edited signal from its source version
+- Third Create an Instrument track selection Halion 6
+- One man and his songs link above is to the Steinberg Halion 6 Tutorial 'Ep.13: The Sample Editor'
+
+
 
 ## Part 1: Sample in Cubase > Halion Instrument configuration > save > trigger
 
